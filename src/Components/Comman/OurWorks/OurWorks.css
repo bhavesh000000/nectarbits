@@ -1,0 +1,362 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+.our_works_wrapper{
+    padding-top: 180px;
+}
+
+.our_works_title {
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+.our_works_title h2 {
+    color: rgba(0,0,0,1);
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    padding: 0 50px 15px 50px;
+}
+.our_works_title h2::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(#0085C3), color-stop(51%, #3DE2F4));
+    background: -o-linear-gradient(left, #0085C3 0%, #3DE2F4 51%);
+    background: linear-gradient(to right, #0085C3 0%, #3DE2F4 51%);
+}
+.our_works_title p{
+    color: rgba(44,44,46,1);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}
+
+.our_works_block{
+    margin-top: 60px;
+}
+.delivery_wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -25px;
+}
+.delivery_img{
+    width: 51%;
+    padding: 0 25px;
+}
+.delivery_block {
+    width: 49%;
+    padding: 0 25px;
+}
+
+.delivery_conte h3{
+    color: rgba(44,44,46,1);
+    font-size: 40px;
+    font-weight: 700;
+}
+.delivery_conte p{
+    color: rgba(44,44,46,1);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0 0 0;
+}
+.delivery_btn a{
+    display: inline-block;
+    border-radius: 28px;
+    border: 1px solid rgba(0,0,0, 1);
+    -webkit-box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+            box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+    color: rgba(0,0,0,1);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    padding: 16px 46px;
+    margin-top: 35px;
+    text-decoration: none;
+    background: transparent;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.delivery_btn a:hover{
+    background: #000;
+    color: #fff;
+    border-color: #fff;
+}
+.our_works_sec{
+    margin-top: 30px;
+}
+.behance_block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 -40px;
+}
+.behance_sec{
+    width: 75%;
+    padding: 0 40px;
+}
+.behance_conte{
+    width: 25%;
+    padding: 0 40px;
+}
+.behance_img{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -8px;
+}
+.behance_img_block{
+    width: 50%;
+    padding: 0 8px;
+}
+.behance_inner_img h2{
+    color: rgba(44,44,46,1);
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.behance_inner_img  p{
+    color: rgba(44,44,46,1);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0 0 0;
+}
+.behance_title h2{
+    color: rgba(44,44,46,1);
+    font-size: 50px;
+    font-weight: 700;
+}
+.behance_title h2 + h2{
+    margin-top: 15px;
+}
+.behance_title .dribble{
+    display: inline-block;
+    background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.behance_btn a{
+    display: inline-block;
+    border-radius: 28px;
+    border: 1px solid rgba(255,255,255, 1);
+    -webkit-box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+            box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+    background-color: rgba(0,0,0, 1);
+    padding: 15px 38px;
+    color: rgba(255,255,255,1);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    margin-top: 46px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.behance_btn a:hover{
+    background: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+@media (max-width: 1199px){
+   .our_works_wrapper{
+        padding-top: 110px;
+   }
+   .behance_block{
+        margin: 0 -20px;
+    }
+   .behance_sec, .behance_conte{
+        padding: 0 20px;
+    }
+    .behance_title h2 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 991px){
+    .our_works_wrapper{
+        padding-top: 70px;
+   }
+   .our_works_title h2 {
+        font-size: 34px;
+        padding: 0 35px 10px 35px;
+    }
+    .our_works_block {
+        margin-top: 30px;
+    }
+    .delivery_wrap{
+        margin: 0 -15px;
+    }
+    .delivery_img, .delivery_block{
+        width: 50%;
+        padding: 0 15px;
+    }
+    .delivery_conte h3 {
+        font-size: 30px;
+    }
+    .delivery_btn a {
+        padding: 11px 36px;
+        margin-top: 28px;
+    }
+    .behance_inner_img h2 {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    .behance_block {
+        margin: 0 -10px;
+    }
+    .behance_sec, .behance_conte {
+        padding: 0 10px;
+    }
+    .behance_title h2 {
+        font-size: 33px;
+    }
+    .behance_btn a {
+        padding: 13px 23px;
+        font-size: 15px;
+        margin-top: 46px;
+    }
+}
+
+@media (max-width: 767px){
+    .our_works_wrapper{
+        padding-top: 60px;
+   }
+   .our_works_block {
+        margin-top: 20px;
+    }
+    .delivery_wrap{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin: -15px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .delivery_img, .delivery_block {
+        width: 100%;
+        padding: 15px;
+    }
+    .delivery_conte{
+        text-align: center;
+    }
+    .delivery_conte h3 br{
+        display: none;
+    }
+    .delivery_conte p {
+        margin: 8px 0 0 0;
+    }
+    .delivery_btn a {
+        margin-top: 15px;
+    }
+    .behance_block{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: -10;
+    }
+    .behance_sec, .behance_conte {
+        padding: 10px;
+        width: 100%;
+    }
+    .behance_btn a {
+        margin-top: 16px;
+    }
+    .behance_img {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: -10px;
+    }
+    .behance_img_block {
+        width: 100%;
+        padding: 10px;
+    }
+    .behance_img_sec img{
+        width: 100%;
+    }
+    .our_works_sec{
+        text-align: center;
+    }
+    .behance_title{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin: -10px;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .behance_title h2{
+        padding: 10px;
+    }
+    .behance_title h2 + h2 {
+        margin-top: 0;
+    }
+    .behance_inner_img h2 {
+        font-size: 20px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 575px){
+    .our_works_wrapper{
+        padding-top: 40px;
+   }
+   .our_works_title h2 {
+        font-size: 30px;
+        padding: 0 30px 10px 30px;
+    }
+    .delivery_conte h3 {
+        font-size: 25px;
+    }
+    .behance_title h2 {
+        font-size: 34px;
+    }
+}
+@media (max-width: 450px){
+   
+}
+@media (max-width: 367px){
+    
+}

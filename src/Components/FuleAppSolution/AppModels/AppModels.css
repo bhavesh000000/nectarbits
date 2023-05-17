@@ -1,0 +1,128 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+.app_models_wrapper{
+    padding-top: 137px;
+}
+
+.app_models_title h3{
+    color: rgba(0,0,0,1);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 14px 0 2px 20px;
+}
+.app_models_title h3::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: -o-linear-gradient(333.435deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
+    background: linear-gradient(116.56505117707799deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
+}
+.app_models_title p{
+    color: rgba(0,0,0,1);
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    margin-top: 10px;
+}
+
+.app_models_block{
+    margin-top: 68px;
+}
+.app_models_block ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: -15px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.app_models_block ul li{
+    width: 33.33%;
+    padding: 15px;
+}
+.app_models_box{
+    border-radius: 10px;
+    border: 1px solid rgba(117,117,117, 1);
+    background-color: rgba(255,255,255, 1);
+    padding: 24px 25px 18px 25px ;
+    min-height: 310px;
+}
+.app_models_box h3{
+    margin-top: 9px;
+    color: rgba(0,0,0,1);
+    font-size: 16px;
+    font-weight: 600;
+}
+.app_models_box p{
+    margin-top: 12px;
+    color: rgba(0,0,0,1);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media (max-width: 1199px){
+    .app_models_box {
+        min-height: 352px;
+    }
+    .app_models_wrapper {
+        padding-top: 77px;
+    }
+}
+
+@media (max-width: 991px){
+    .app_models_wrapper {
+        padding-top: 50px;
+    }
+    .app_models_title h3 {
+         font-size: 30px;
+    }
+    .app_models_block {
+        margin-top: 30px;
+    }
+    .app_models_block ul li {
+        width: 50%;
+    }
+    .app_models_box {
+        min-height: 330px;
+    }
+}
+
+@media (max-width: 767px){
+    .app_models_wrapper {
+        padding-top: 30px;
+    }
+    .app_models_title h3 {
+        font-size: 26px;
+    }
+    .app_models_block ul li {
+        width: 100%;
+    }
+    .app_models_box {
+        min-height: 260px;
+    }
+}
+
+@media (max-width: 575px){
+    .app_models_box {
+        padding: 24px 15px 18px 15px;
+    }
+}
+@media (max-width: 367px){
+    .app_models_title h3 {
+        font-size: 22px;
+    }
+}

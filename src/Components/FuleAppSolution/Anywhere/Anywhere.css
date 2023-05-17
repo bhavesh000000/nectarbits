@@ -1,0 +1,107 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+.anywhere_wrapper{
+    padding-top: 180px;
+}
+
+.anywhere_wrap {
+    background-image: -o-linear-gradient(333.435deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
+    background-image: linear-gradient(116.56505117707799deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
+    padding: 72px 0;
+}
+.anywhere_block{
+    text-align: center;
+}
+.anywhere_block h3{
+    color: rgba(255,255,255,1);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.anywhere_block p{
+    margin-top: 25px;
+    color: rgba(255,255,255,1);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.anywhere_btn a{
+    display: inline-block;
+    color: rgba(255,255,255,1);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    border-radius: 28px;
+    border: 2px solid rgba(255,255,255, 1);
+    -webkit-box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+            box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+    padding: 16px 35px;
+    margin-top: 40px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.anywhere_btn a:hover{
+    -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+            transform: translateY(-5px);
+}
+
+
+@media (max-width: 1199px){
+    .anywhere_wrapper {
+        padding-top: 110px;
+    }
+}
+
+@media (max-width: 991px){
+    .anywhere_wrapper {
+        padding-top: 70px;
+    }
+    .anywhere_wrap {
+        padding: 52px 0;
+    }
+    .anywhere_block h3 br{
+        display: none;
+    }
+    .anywhere_block h3 {
+        font-size: 36px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 767px){
+    .anywhere_wrapper {
+        padding-top: 50px;
+    }
+    .anywhere_block h3 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+    .anywhere_block p {
+        margin-top: 15px;
+    }
+    .anywhere_btn a {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 575px){
+    .anywhere_wrapper {
+        padding-top: 40px;
+    }
+    .anywhere_wrap {
+        padding: 40px 0;
+    }
+}
+@media (max-width: 367px){
+    .anywhere_block h3 {
+        font-size: 26px;
+    }
+}

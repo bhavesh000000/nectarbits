@@ -1,0 +1,201 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+/*============== Performance Section Css Start ===============*/
+
+@font-face {
+    font-family: Helvetica_Regular;
+    src: url(../../../Assets/Fonts/HelveticaNowText-Regular.otf);
+}
+
+
+.performance_wrapper{
+	padding-top: 89px;
+}
+.performance_title{
+	text-align: center;
+}
+.performance_title h4 {
+	display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.performance_title h2{
+	color: rgba(0,0,0,1);
+	font-size: 50px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+.performance_title  p{
+	color: rgba(0,0,0,1);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	max-width: 925px;
+	margin: 25px auto 0;
+}
+.performance_sec{
+	margin-top: 99px;
+}
+.performance_sec ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+    padding: 0;
+}
+.performance_sec ul li{
+	position: relative;
+}
+.performance_sec ul li::after{
+	content: '';
+	border-right: 1px solid rgba(151,151,151, 1);
+	height: 95px;
+	width: 1px;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	right: -50%;
+}
+.performance_sec ul li:last-child:after{
+	display: none;
+}
+.performance_conte h3{
+	background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-family: Helvetica_Regular;
+	font-size: 70px;
+	font-weight: 400;
+}
+.performance_conte p{
+	color: rgba(0,0,0,1);
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 8px;
+	text-align: center;
+}
+
+
+/*============== Performance Section Css End ===============*/
+
+
+@media (max-width: 1199px){
+
+    .performance_wrapper {
+        padding-top: 40px;
+    }
+    .performance_sec {
+        margin-top: 40px;
+    }
+    .performance_title h2 {
+        font-size: 45px;
+        margin-top: 5px;
+    }
+    .performance_title p{
+        margin: 20px 0 0 0;
+    }
+    .performance_conte h3{
+        font-size: 60PX;
+    }
+    .performance_conte p {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 991px){
+    .performance_wrapper {
+        padding-top: 30px;
+    }
+    .performance_title h4{
+        font-size: 28px;
+    }
+    .performance_title h2 {
+        font-size: 35px;
+    }
+    .performance_title p {
+        margin: 15px 0 0 0;
+    }
+    .performance_sec {
+        margin-top: 20px;
+    }
+    .performance_conte h3 {
+        font-size: 45PX;
+    }
+    .performance_conte p {
+        font-size: 15px;
+    }
+    .performance_sec ul li::after {
+        right: -35%;
+        height: 78px;
+    }
+
+}
+
+@media (max-width: 767px){
+
+
+    .performance_wrapper {
+        padding-top: 20px;
+    }
+    .performance_title h4 {
+        font-size: 25px;
+    }
+    .performance_title h2 {
+        font-size: 28px;
+    }
+    .performance_title p {
+        margin: 10px 0 0 0;
+    }
+    .performance_sec {
+        margin-top: 15px;
+    }
+    .performance_sec ul{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin: -15px;
+    }
+    .performance_sec ul li{
+        width: 50%;
+        padding: 15px;
+        text-align: center;
+    }
+    .performance_sec ul li::after{
+        display: none;
+    }
+}
+
+@media (max-width: 575px){
+
+    .performance_title h4 {
+        font-size: 25px;
+    }
+    .performance_title h2 {
+        font-size: 27px;
+    }
+
+}
+@media (max-width: 367px){
+	.performance_conte h3 {
+		font-size: 40PX;
+	}
+	.performance_conte p {
+		font-size: 14px;
+	}
+}

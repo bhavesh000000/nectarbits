@@ -1,0 +1,175 @@
+
+
+/*============== Hero Section Css Start ===============*/
+.services_hero_sec{
+    overflow: hidden;
+}
+.services_hero_sec .banner_wrapper{
+	position: relative;
+}
+.services_hero_sec .banner_wrap{
+	background-image: url(../../../Assets/Images/banner_bg.png);
+	width: 100%;
+	min-height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 50px;
+}
+.services_hero_sec .banner_block {
+    padding-top: 180px;
+    position: relative;
+}
+.services_hero_sec .banner_sec{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.services_hero_sec .banner_conte {
+    width: 55%;
+}
+.services_hero_sec .banner_img {
+    width: 45%;
+}
+.services_hero_sec .banner_inner_conte h3{
+    color: rgba(0,0,0,1);
+    font-size: 65px;
+    font-weight: 800;
+    letter-spacing: 3.25px;
+    line-height: 1;
+}
+.services_hero_sec .banner_inner_conte h4{
+    color: rgba(0,0,0,1);
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+}
+.services_hero_sec .banner_inner_conte p{
+    color: rgba(0,0,0,1);
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    margin: 15px 0 0 0;
+}
+.services_hero_sec .banner_btn a {
+    display: inline-block;
+    border: 1px solid rgba(255,255,255, 1);
+    box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+    background-image: linear-gradient(to right, #0085C3 0%, #3DE2F4 51%, #0085C3 100%);
+    color: rgba(255,255,255,1);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    padding: 16px 28px;
+    border-radius: 28px;
+    margin-top: 17px;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+    background-size: 200% auto;
+}
+.services_hero_sec .banner_btn a:hover {
+    color: #fff;
+    background-position: right center;
+}
+.services_hero_sec .banner_img_block {
+    position: absolute;
+    top: 80%;
+    right: -18%;
+}
+/*============== Hero Section Css End ===============*/
+
+@media (max-width: 1360px){
+    .services_hero_sec .banner_img_block {
+        right: -11%;
+    }
+}
+
+@media (max-width: 1199px){
+    .services_hero_sec .banner_wrap {
+        min-height: 720px;
+    }
+    .services_hero_sec .banner_block {
+        padding-top: 160px;
+    }
+    .services_hero_sec .banner_inner_conte h3 {
+        font-size: 56px;
+    }
+    .services_hero_sec .banner_inner_conte h4 {
+        font-size: 42px;
+    }
+    .services_hero_sec .banner_conte {
+        width: 49%;
+    }
+    .services_hero_sec .banner_img_block {
+        right: -12.5%;
+    }
+    .services_hero_sec .banner_img_block img {
+        width: unset;
+    }
+}
+
+@media (max-width: 991px){
+    .services_hero_sec .banner_wrap {
+        min-height: 700px;
+    }
+    .services_hero_sec .banner_block {
+        padding-top: 140px;
+    }
+    .services_hero_sec .banner_img_block img{
+        width: 470px;
+    }
+    .services_hero_sec .banner_img_block {
+        right: -18.5%;
+    }
+    .services_hero_sec .banner_inner_conte h3 {
+        font-size: 48px;
+    }
+    .services_hero_sec .banner_inner_conte h4 {
+        font-size: 34px;
+    }
+    .services_hero_sec .banner_conte {
+        width: 51%;
+    }
+}
+
+@media (max-width: 767px){
+    .services_hero_sec .banner_block {
+        padding-top: 110px;
+        padding-bottom: 70px;
+    }
+    .services_hero_sec .banner_img_block{
+        position: relative;
+        right: unset;
+        top: unset;
+    }
+    .services_hero_sec .banner_sec{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: -15px;
+    }
+    .services_hero_sec .banner_conte, .banner_img {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 575px){
+    .services_hero_sec .banner_block {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    .services_hero_sec .banner_inner_conte h3 {
+        font-size: 40px;
+    }
+    .services_hero_sec .banner_inner_conte h4 {
+        font-size: 32px;
+    }
+}
+@media (max-width: 367px){
+    .services_hero_sec .banner_inner_conte h3 {
+        font-size: 38px;
+    }
+    .services_hero_sec .banner_inner_conte h4 {
+        font-size: 28px;
+    }
+}

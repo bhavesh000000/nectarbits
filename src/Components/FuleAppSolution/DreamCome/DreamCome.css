@@ -1,0 +1,183 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+.dream_come_wrapper{
+    padding-top: 180px;
+}
+
+.dream_come_title h2{
+    color: rgba(0,0,0,1);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    padding-left: 20px;
+}
+.dream_come_title h2::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: -o-linear-gradient(333.435deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
+    background: linear-gradient(116.56505117707799deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
+}
+.dream_come_block{
+    margin-top: 70px;
+}
+.dream_come_sec ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: -20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.dream_come_sec ul li{
+    width: 45%;
+    padding: 20px;
+}
+.dream_come_item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    padding-bottom: 35px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid rgba(209,209,214, 1);
+}
+.dream_come_item::after{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: auto;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background: -o-linear-gradient(333.435deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
+    background: linear-gradient(116.56505117707799deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.dream_come_item:hover::after{
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
+.dream_come_item h3{
+    -webkit-text-stroke: 1px rgba(0, 133, 195, 1);
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    width: 27%;
+}
+.dream_come_conte h4{
+    color: rgba(0,0,0,1);
+    font-size: 26px;
+    font-weight: 600;
+}
+.dream_come_conte p {
+    color: rgba(0,0,0,1);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+    line-height: 1.6;
+    margin-top: 27px;
+}
+
+@media (max-width: 1199px){
+    .dream_come_wrapper {
+        padding-top: 110px;
+    }
+    .dream_come_title h2 {
+        font-size: 35px;
+    }
+    .dream_come_sec ul li {
+        width: 48%;
+    }
+    .dream_come_item h3 {
+        width: 30%;
+    }
+}
+
+@media (max-width: 991px){
+    .dream_come_wrapper {
+        padding-top: 70px;
+    }
+    .dream_come_title h2 {
+        font-size: 32px;
+    }
+    .dream_come_block {
+        margin-top: 50px;
+    }
+    .dream_come_sec ul{
+        margin: -15px;
+    }
+    .dream_come_sec ul li {
+        padding: 15px;
+        width: 50%;
+    }
+    .dream_come_conte h4 {
+        font-size: 21px;
+    }
+    .dream_come_item h3 {
+        font-size: 40px;
+        width: 46%;
+    }
+}
+
+@media (max-width: 767px){
+    .dream_come_wrapper {
+        padding-top: 50px;
+    }
+    .dream_come_title h2 {
+        font-size: 26px;
+    }
+    .dream_come_block {
+        margin-top: 30px;
+    }
+    .dream_come_sec ul li{
+        width: 100%;
+    }
+    .dream_come_item h3 {
+        width: 20%;
+    }
+    .dream_come_conte p {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 575px){
+    .dream_come_wrapper {
+        padding-top: 40px;
+    }
+    .dream_come_title h2 {
+        font-size: 24px;
+    }
+    .dream_come_item h3 {
+        width: unset;
+    }
+    .dream_come_conte{
+        margin-left: 20px;
+    }
+    .dream_come_item {
+        padding-bottom: 18px;
+    }
+}
+@media (max-width: 367px){
+    
+}

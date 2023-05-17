@@ -1,0 +1,65 @@
+
+:root {
+  scroll-behavior: unset;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #2B2D42;
+  background-color: #fff;
+  font-size: 18px ;
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+a,
+span,
+a:hover,
+a:active,
+button {
+  text-decoration: none ;
+}
+p {
+  margin: 0;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin: 0;
+}
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+.cm_overflow{
+  overflow: hidden;
+}
+.home_page{
+  overflow: hidden;
+}
+.container{
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+/**********************  Media Css Start   ***********************/
+
+@media (min-width: 1200px){
+  .container{
+      max-width: 1170px;
+  }
+}

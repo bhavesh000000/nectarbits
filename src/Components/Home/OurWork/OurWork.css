@@ -1,0 +1,187 @@
+
+.ourwork_wrapper{
+    padding-top: 180px;
+}
+.ourwork_title h3{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin: 0;
+}
+.ourwork_title p{
+    color: rgba(0,0,0,1);
+    font-size: 22px;
+    font-weight: 400;
+    margin: 30px 0 34px 0;
+    max-width: 470px;
+}  
+
+.ourwork_sec{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -30px;
+}
+.ourwork_conte{
+    width: 50%;
+    padding: 0 30px;
+}
+.ourwork_inner_block h3{
+    color: rgba(0,0,0,1);
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 18px;
+}
+.ourwork_inner_block p{
+    color: rgba(142,142,147,1);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    margin: 12px 0 0 0;
+}
+.ourwork_block + .ourwork_block{
+    margin-top: 39px;
+}
+.ourwork_img{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.ourwork_img img{
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.ourwork_img:hover img{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.ourwork_btn{
+    text-align: right;
+}
+.ourwork_btn a{
+    display: inline-block;
+    border: 1px solid rgba(255,255,255, 1);
+    -webkit-box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+            box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+    background-image: -webkit-gradient(linear, left top, right top, from(#0085C3), color-stop(51%, #3DE2F4), to(#0085C3));
+    background-image: -o-linear-gradient(left, #0085C3 0%, #3DE2F4 51%, #0085C3 100%);
+    background-image: linear-gradient(to right, #0085C3 0%, #3DE2F4 51%, #0085C3 100%);
+    color: rgba(255,255,255,1);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    padding: 16px 50px;
+    border-radius: 28px;
+    margin-top: 39px;
+    text-decoration: none;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-size: 200% auto;
+}
+.ourwork_btn a:hover {
+    color: #fff;
+    background-position: right center; 
+}
+.ourwork_top_spach{
+    margin-top: -100px;
+}
+
+
+@media (max-width: 1199px){
+    .ourwork_wrapper {
+        padding-top: 110px;
+    }
+}
+
+@media (max-width: 991px){
+    .ourwork_wrapper {
+        padding-top: 70px;
+    }
+
+    .ourwork_title p {
+        font-size: 17px;
+        margin: 10px 0 24px 0;
+        max-width: 361px;
+    }
+    .ourwork_inner_block h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .ourwork_sec {
+        margin: 0 -15px;
+    }
+    .ourwork_conte {
+        padding: 0 15px;
+    }
+    .ourwork_block + .ourwork_block {
+        margin-top: 20px;
+    }
+    .ourwork_top_spach {
+        margin-top: -90px;
+    }
+}
+
+@media (max-width: 767px){
+    .ourwork_wrapper {
+        padding-top: 50px;
+    }
+
+    .ourwork_title p {
+        font-size: 16px;
+        margin: 10px 0 13px 0;
+        max-width: 300px;
+    }
+    .ourwork_inner_block h3 {
+        font-size: 16px;
+    }
+    .ourwork_inner_block p {
+        margin: 8px 0 0 0;
+    }
+    .ourwork_btn a {
+        padding: 12px 47px;
+        margin-top: 39px;
+    }
+}
+
+@media (max-width: 575px){
+    .ourwork_sec {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin: -15px;
+    }
+    .ourwork_conte {
+        width: 100%;
+        padding: 15px;
+    }
+    .ourwork_top_spach {
+        margin-top: 0;
+    }
+    .ourwork_title {
+        text-align: center;
+    }
+    .ourwork_title p {
+        font-size: 16px;
+        margin: 10px 0 13px 0;
+        max-width: 100%;
+    }
+    .ourwork_btn {
+        text-align: center;
+    }
+    .ourwork_btn a {
+        padding: 10px 35px;
+        margin-top: 18px;
+    }
+    .ourwork_inner_block h3 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 367px){
+
+}
