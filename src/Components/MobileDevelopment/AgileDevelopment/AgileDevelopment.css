@@ -1,0 +1,121 @@
+
+
+.agile_development_wrapper{
+    padding-top: 180px;
+}
+
+.agile_development_title h2{
+    color: rgba(0,0,0,1);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 10px;
+    line-height: 1.4;
+    text-align: center;
+}
+.agile_development_title h2::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 26%;
+    height: 2px;
+    background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4);
+}
+
+.agile_development_block{
+    margin-top: 60px;
+}
+.agile_development_block ul{
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -15px;
+}
+.agile_development_block ul li{
+    padding: 0 15px;
+    width: 33.33%;
+}
+.agile_development_img {
+    position: relative;
+}
+.agile_development_img_block{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    text-align: center;
+}
+.agile_development_img_block h3{
+    color: rgba(0,0,0,1);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px 0 0 0;
+}
+.agile_development_sec p{
+    color: rgba(0,0,0,1);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+    margin: 13px 0 0 0;
+}
+
+@media (max-width: 1199px){
+    .agile_development_wrapper {
+        padding-top: 110px;
+    }
+    .agile_development_title h2 {
+        font-size: 36px;
+    }
+    .agile_development_block {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 991px){
+    .agile_development_wrapper {
+        padding-top: 80px;
+    }
+    .agile_development_block {
+        margin-top: 30px;
+    }
+    .agile_development_title h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+}
+
+@media (max-width: 767px){
+    .agile_development_wrapper {
+        padding-top: 50px;
+    }
+    .agile_development_block ul{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin: -15px;
+    }
+    .agile_development_block ul li {
+        padding: 15px;
+        width: 100%;
+    }
+    .agile_development_img>img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px){
+    .agile_development_title h2 {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+    .agile_development_wrapper {
+        padding-top: 40px;
+    }
+}
+@media (max-width: 367px){
+    
+}

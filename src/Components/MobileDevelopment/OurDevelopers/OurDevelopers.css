@@ -1,0 +1,195 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+.our_developers_wrapper{
+    padding-top: 180px;
+}
+.our_developers_title{
+    text-align: center;
+}
+.our_developers_title h2{
+    color: rgba(0,0,0,1);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 10px;
+    line-height: 1.4;
+    text-align: center;
+}
+.our_developers_title h2::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 26%;
+    height: 2px;
+    background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4);
+}
+.our_developers_title p{
+    margin: 10px 0 0 0;
+    color: rgba(0,0,0,1);
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+}
+.our_developers_img_block{
+    margin-top: 70px;
+}
+.our_developers_img_block ul{
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: -15px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.our_developers_img_block ul li{
+    width: 45%;
+    padding: 15px;
+}
+.our_developers_sec{
+    border-radius: 10px;
+    padding: 1px;
+    width: 100%;
+    background: transparent;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.our_developers_sec:hover{
+    background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4);
+}
+.our_developers_conte {
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+    padding: 28px 25px 15px 25px;
+    min-height: 278px;
+    position: relative;
+}
+.our_developers_conte::after{
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    height: 26%;
+    width: 3px;
+    background: -webkit-linear-gradient(45deg,#3DE2F4, #0085C3);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.our_developers_sec:hover .our_developers_conte::after{
+    opacity: 0;
+    visibility: hidden;
+} 
+.our_developers_img{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.our_developers_img h3{
+    color: rgba(0,0,0,1);
+    font-size: 26px;
+    font-weight: 600;
+}
+.our_developers_conte p{
+    margin: 15px 0 0 0;
+    color: rgba(0,0,0,1);
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+}
+
+@media (max-width: 1199px){
+   .our_developers_wrapper{
+        padding-top: 110px;
+   }
+
+   .our_developers_title h2 {
+        font-size: 36px;
+    }
+    .our_developers_img_block {
+        margin-top: 50px;
+    }
+    .our_developers_img_block ul li {
+        width: 48%;
+    }
+}
+
+@media (max-width: 991px){
+    .our_developers_wrapper{
+        padding-top: 70px;
+   }
+   .our_developers_title h2 {
+        font-size: 30px;
+    }
+    .our_developers_img_block {
+        margin-top: 40px;
+    }
+    .our_developers_img_block ul li {
+        width: 50%;
+    }
+    .our_developers_conte {
+        padding: 20px 20px 15px 20px;
+    }
+    .our_developers_img h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 767px){
+    .our_developers_wrapper{
+        padding-top: 60px;
+   }
+   .our_developers_img_block ul li {
+        width: 100%;
+    }
+    .our_developers_conte{
+        min-height: 100%;
+        padding: 20px;
+    }
+    .our_developers_img h3 br{
+        display: none;
+    }
+}
+
+@media (max-width: 575px){
+    .our_developers_wrapper{
+        padding-top: 40px;
+   }
+   .our_developers_title h2 {
+        font-size: 25px;
+    }
+    .our_developers_img_block {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 450px){
+   
+}
+@media (max-width: 367px){
+   
+}

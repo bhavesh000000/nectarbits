@@ -1,0 +1,308 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+.solutions_wrapper{
+    padding-top: 180px;
+}
+.solutions_wrap{
+    background-color: rgba(0,0,0, 1);
+    padding: 94px 0 90px 0;
+}
+.solutions_title h2{
+    color: rgba(255,255,255,1);
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+}
+.solutions_title p{
+    color: rgba(255,255,255,1);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+    line-height: 1.6;
+}
+.solutions_sec {
+    margin-top: 32px;
+    padding: 0 70px 0 15px;
+}
+.solutions_tab_block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -20px;
+}
+.solutions_tabs{
+    width: 28%;
+    padding: 0 20px;
+}
+.solutions_tab_conte{
+    width: 72%;
+    padding: 0 20px;
+}
+
+.solutions_item .nav{
+    background-color: rgba(28,28,30, 1);
+    padding:0 15px;
+}
+.solutions_item .nav-pills .nav-link{
+    color: rgba(255,255,255,1);
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(72,72,74, 1);
+    border-radius: 0;
+    padding: 25px 0;
+    text-align: left;
+} 
+.solutions_item .nav-pills .nav-link:last-child{
+    border-bottom: 0;
+}
+.solutions_item  .nav-pills .nav-link.active, .solutions_item .nav-pills .show>.nav-link{
+    border-radius: 10px;
+    border: 2px solid #0085C3;
+    background-color: rgba(0,0,0, 1);
+    margin: 0 -30px 0 -30px;
+    padding: 24px 28px;
+}
+
+.taxi_app_sec{
+    background-image: url(../../../Assets/Images/MobileAppDevelopment/taxi_background.webp);
+    width: 100%;
+    padding: 40px 50px 128px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.taxi_app_sec h3{
+    color: rgba(255,255,255,1);
+    font-size: 40px;
+    font-weight: 700;
+}
+.taxi_app_sec p{
+    margin: 47px 0 0 0;
+    color: rgba(255,255,255,1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.taxi_app_btn a{
+    display: inline-block;
+    color: rgba(255,255,255,1);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin-top: 53px;
+    border-radius: 28px;
+    border: 1px solid rgba(255,255,255, 1);
+    padding: 11px 35px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.taxi_app_btn a:hover{
+    background: #fff;
+    color: #000;
+}
+
+
+.solutions_tab_conte .slick-next{
+    background: url(../../../Assets/Images/MobileAppDevelopment/ic_arrow_right.webp);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: -70px;
+}
+.solutions_tab_conte .slick-next:hover, .solutions_tab_conte .slick-next:focus{
+    background: url(../../../Assets/Images/MobileAppDevelopment/ic_arrow_right.webp);
+    background-size: cover;
+}
+.solutions_tab_conte .slick-prev::before, .solutions_tab_conte  .slick-next:before{
+    display: none;
+}
+.solutions_tab_conte .slick-prev{
+    background: url(../../../Assets/Images/MobileAppDevelopment/ic_arrow_left.webp);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none !important;
+    z-index: 1;
+}
+.solutions_tab_conte .slick-prev:hover, .solutions_tab_conte .slick-prev:focus{
+    background: url(../../../Assets/Images/MobileAppDevelopment/ic_arrow_left.webp);
+    background-size: cover;
+}
+
+@media (max-width: 1199px){
+   .solutions_wrapper{
+        padding-top: 110px;
+   }
+
+   .solutions_wrap {
+        padding: 60px 0;
+    }
+    .solutions_title h2 {
+        font-size: 40px;
+    }
+    .solutions_title p {
+        margin: 10px 0 0 0;
+    }
+    .taxi_app_sec p br{
+        display: none;
+    }
+    .solutions_item .nav-pills .nav-link {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 991px){
+    .solutions_wrapper{
+        padding-top: 70px;
+   }
+   .solutions_wrap {
+        padding: 40px 0;
+    }
+    .solutions_title h2 {
+        font-size: 35px;
+    }
+    .solutions_tab_block{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin: -15px;
+    }
+    .solutions_tabs, .solutions_tab_conte{
+        width: 100%;
+        padding: 15px;
+    }
+    .solutions_item{
+        overflow-x: auto;
+    }
+    .solutions_item .nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-orient: horizontal !important;
+        -webkit-box-direction: normal !important;
+            -ms-flex-direction: row !important;
+                flex-direction: row !important;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        padding: 5px 0;
+    }
+    .solutions_item .nav-pills .nav-link {
+        font-size: 18px;
+        border: 1px solid rgb(185, 185, 185);
+        margin: 0;
+        padding: 15px;
+    }
+    .solutions_item .nav-pills .nav-link:last-child {
+        border: 1px solid rgb(185, 185, 185);
+    }
+    .solutions_item .nav-pills .nav-link.active, .solutions_item .nav-pills .show>.nav-link{
+        margin: 0;
+        padding: 15px;
+        border-radius: 0;
+        border: 1px solid #0085C3;
+    }
+    .taxi_app_sec h3 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 767px){
+    .solutions_wrapper{
+        padding-top: 60px;
+   }
+   .solutions_title h2 {
+        font-size: 30px;
+    }
+    .solutions_item .nav {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content
+    }
+    .taxi_app_sec {
+        padding: 20px 15px;
+    }
+    .taxi_app_sec h3 {
+        font-size: 27px;
+    }
+    .taxi_app_sec p {
+        margin: 30px 0 0 0;
+        font-size: 16px;
+    }
+    .solutions_sec {
+        padding: 0 60px 0 15px;
+    }
+    .solutions_tab_conte .slick-next, 
+    .solutions_tab_conte .slick-next:hover, 
+    .solutions_tab_conte .slick-next:focus{
+        width: 35px;
+        right: -55px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 575px){
+    .solutions_wrapper{
+        padding-top: 40px;
+   }
+   .solutions_title h2 {
+        font-size: 26px;
+    }
+    .solutions_sec {
+        padding: 0;
+    }
+    
+    .solutions_item .nav {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+    }
+    .solutions_wrap {
+        padding: 40px 0 90px 0;
+    }
+    .solutions_tab_conte .slick-next, .solutions_tab_conte .slick-next:hover, .solutions_tab_conte .slick-next:focus {
+        width: 35px;
+        right: 40%;
+        height: 35px;
+        top: unset;
+        position: absolute;
+        bottom: -80px;
+    }
+    .solutions_tab_conte .slick-prev, .solutions_tab_conte .slick-prev:hover, .solutions_tab_conte .slick-prev:focus{
+        display: block !important;
+        width: 35px;
+        left: 40%;
+        height: 35px;
+        top: unset;
+        position: absolute;
+        bottom: -80px;
+    } 
+    
+
+}
+@media (max-width: 450px){
+    .solutions_tab_conte .slick-next, .solutions_tab_conte .slick-next:hover, .solutions_tab_conte .slick-next:focus{
+        right: 37%;
+    }
+    .solutions_tab_conte .slick-prev, .solutions_tab_conte .slick-prev:hover, .solutions_tab_conte .slick-prev:focus{
+        left: 37%;
+    }
+}
+@media (max-width: 367px){
+   
+}

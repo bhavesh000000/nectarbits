@@ -50,6 +50,9 @@ img {
 .home_page{
   overflow: hidden;
 }
+.mobile_development_page{
+  overflow: hidden;
+}
 .container{
   padding: 0 15px;
   margin: 0 auto;

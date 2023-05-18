@@ -73,7 +73,7 @@
 }
 .services_hero_sec .banner_img_block {
     position: absolute;
-    top: 80%;
+    top: 32%;
     right: -18%;
 }
 /*============== Hero Section Css End ===============*/
@@ -147,7 +147,7 @@
         flex-direction: column;
         margin: -15px;
     }
-    .services_hero_sec .banner_conte, .banner_img {
+    .services_hero_sec .banner_conte, .services_hero_sec .banner_img {
         width: 100%;
         padding: 15px;
     }
