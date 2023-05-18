@@ -2,10 +2,10 @@ import React from 'react'
 
 import './OurWork.css';
 
-import ourwork_img1 from '../../../Assets/Images/ourwork_img1.png';
-import ourwork_img2 from '../../../Assets/Images/ourwork_img2.png';
-import ourwork_img3 from '../../../Assets/Images/ourwork_img3.png';
-import ourwork_img4 from '../../../Assets/Images/ourwork_img4.png';
+import ourwork_img1 from '../../../Assets/Images/ourwork_img1.webp';
+import ourwork_img2 from '../../../Assets/Images/ourwork_img2.webp';
+import ourwork_img3 from '../../../Assets/Images/ourwork_img3.webp';
+import ourwork_img4 from '../../../Assets/Images/ourwork_img4.webp';
 
 export default function OurWork() {
   return (

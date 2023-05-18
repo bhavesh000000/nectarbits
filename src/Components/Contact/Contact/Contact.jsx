@@ -5,8 +5,8 @@ import $ from 'jquery';
 import './Contact.css'
 import axios from 'axios';
 
-import ic_skype from '../../../Assets/Images/ic_skype.png'
-import ic_email from '../../../Assets/Images/ic_email.png'
+import ic_skype from '../../../Assets/Images/ic_skype.webp'
+import ic_email from '../../../Assets/Images/ic_email.webp'
 
 export default function Contact() {
 

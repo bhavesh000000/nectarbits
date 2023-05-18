@@ -2,7 +2,7 @@ import React from 'react'
 
 import './WhyUs.css';
 
-import icon_bullet from '../../../Assets/Images/Slution/icon_bullet.png';
+import icon_bullet from '../../../Assets/Images/Slution/icon_bullet.webp';
 
 export default function WhyUs() {
   return (

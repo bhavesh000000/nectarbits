@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react'
 import './Listening.css'
 
-import ic_skype from '../../../Assets/Images/ic_skype.png'
-import ic_email from '../../../Assets/Images/ic_email.png'
+import ic_email from '../../../Assets/Images/ic_email.webp'
 
 
 export default function Listening() {

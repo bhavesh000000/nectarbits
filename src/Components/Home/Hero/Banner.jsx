@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Banner.css';
 
-import hero_img1 from '../../../Assets/Images/hero_img1.png';
+import hero_img1 from '../../../Assets/Images/hero_img1.webp';
 
 export default function Banner() {
   return (

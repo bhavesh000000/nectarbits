@@ -1,16 +1,15 @@
-import React from "react";
+import React, { lazy } from "react";
 import Header from "./Components/Comman/Header/Header";
 import Footer from "./Components/Comman/Footer/Footer";
 
 import { Routes, Route } from "react-router-dom";
+import Suspenseloader from "./Components/Loaders/Suspenseloader";
 
-import Home from "./pages/Home/Home";
-import Services from "./pages/Services/Services";
-import ContactUs from "./pages/ContactUs/ContactUs";
-
-import Layout from "./Layout/Layout";
-import FuleAppSolution from "./pages/FuleAppSolution/FuleAppSolution";
-import MobileDevelopment from "./pages/MobileDevelopment/MobileDevelopment";
+const Home = lazy(() => import( "./pages/Home/Home"));
+const Services = lazy(() => import( "./pages/Services/Services"));
+const ContactUs = lazy(() => import( "./pages/ContactUs/ContactUs"));
+const FuleAppSolution = lazy(() => import( "./pages/FuleAppSolution/FuleAppSolution"));
+const MobileDevelopment = lazy(() => import("./pages/MobileDevelopment/MobileDevelopment"));
 
 function App() {
   return (

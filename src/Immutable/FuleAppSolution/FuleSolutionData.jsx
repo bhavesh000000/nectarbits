@@ -1,10 +1,10 @@
 
-var app_module_img1 = require('../../Assets/Images/Slution/app_module_img1.png');
-var app_module_img2 = require('../../Assets/Images/Slution/app_module_img2.png');
-var app_module_img3 = require('../../Assets/Images/Slution/app_module_img3.png');
-var app_module_img4 = require('../../Assets/Images/Slution/app_module_img4.png');
-var app_module_img5 = require('../../Assets/Images/Slution/app_module_img5.png');
-var app_module_img6 = require('../../Assets/Images/Slution/app_module_img6.png');
+var app_module_img1 = require('../../Assets/Images/Slution/app_module_img1.webp');
+var app_module_img2 = require('../../Assets/Images/Slution/app_module_img2.webp');
+var app_module_img3 = require('../../Assets/Images/Slution/app_module_img3.webp');
+var app_module_img4 = require('../../Assets/Images/Slution/app_module_img4.webp');
+var app_module_img5 = require('../../Assets/Images/Slution/app_module_img5.webp');
+var app_module_img6 = require('../../Assets/Images/Slution/app_module_img6.webp');
 
 export const AppModelsData = [
     {
@@ -126,8 +126,8 @@ export const DreamComeData = [
 ]
 
 
-var app_image = require('../../Assets/Images/Slution/app_image.png');
-var right_arrow = require('../../Assets/Images/Slution/right_arrow.png');
+var app_image = require('../../Assets/Images/Slution/app_image.webp');
+var right_arrow = require('../../Assets/Images/Slution/right_arrow.webp');
 
 export const SolutionWorkData = [
     {

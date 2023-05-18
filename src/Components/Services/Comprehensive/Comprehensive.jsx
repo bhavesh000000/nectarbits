@@ -5,8 +5,8 @@ import Tab from 'react-bootstrap/Tab';
 
 import './Comprehensive.css';
 
-import link_arrow from '../../../Assets/Images/Services/link_arrow.png'
-import App_Mockup from '../../../Assets/Images/Services/App_Mockup.png'
+import link_arrow from '../../../Assets/Images/Services/link_arrow.webp'
+import App_Mockup from '../../../Assets/Images/Services/App_Mockup.webp'
 
 export default function Comprehensive() {
   return (

@@ -2,11 +2,11 @@ import React from 'react'
 
 import './Expereience.css'
 
-import link_arrow from '../../../Assets/Images/Services/link_arrow.png'
+import link_arrow from '../../../Assets/Images/Services/link_arrow.webp'
 
-import Illustration_experience from '../../../Assets/Images/Services/Illustration_experience.png'
-import illustration_team_culture from '../../../Assets/Images/Services/illustration_team_culture.png'
-import illustration_cost_effective from '../../../Assets/Images/Services/illustration_cost_effective.png'
+import Illustration_experience from '../../../Assets/Images/Services/Illustration_experience.webp'
+import illustration_team_culture from '../../../Assets/Images/Services/illustration_team_culture.webp'
+import illustration_cost_effective from '../../../Assets/Images/Services/illustration_cost_effective.webp'
 
 export default function Expereience() {
   return (

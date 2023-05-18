@@ -1,5 +1,6 @@
- import React from 'react'
-import Hero from '../../Components/Comman/ServicesHero/Hero'
+ import React, { lazy } from 'react'
+
+const Hero = lazy(() => import('../../Components/Comman/ServicesHero/Hero'));
  
  export default function MobileDevelopment() {
    return (

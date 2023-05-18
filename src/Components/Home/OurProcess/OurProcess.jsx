@@ -2,10 +2,10 @@ import React from 'react'
 
 import './OurProcess.css';
 
-import process_img1 from '../../../Assets/Images/process_img1.png'
-import process_img2 from '../../../Assets/Images/process_img2.png'
-import process_img3 from '../../../Assets/Images/process_img3.png'
-import process_img4 from '../../../Assets/Images/process_img4.png'
+import process_img1 from '../../../Assets/Images/process_img1.webp'
+import process_img2 from '../../../Assets/Images/process_img2.webp'
+import process_img3 from '../../../Assets/Images/process_img3.webp'
+import process_img4 from '../../../Assets/Images/process_img4.webp'
 
 export default function OurProcess() {
   return (

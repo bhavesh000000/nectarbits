@@ -1,16 +1,17 @@
-import React from 'react'
-import Banner from '../../Components/FuleAppSolution/Hero/Banner';
-import WhyUs from '../../Components/FuleAppSolution/WhyUs/WhyUs';
-import AppModels from '../../Components/FuleAppSolution/AppModels/AppModels';
-import Difference from '../../Components/FuleAppSolution/Difference/Difference';
-import SolutionWork from '../../Components/FuleAppSolution/SolutionWork/SolutionWork';
-import DreamCome from '../../Components/FuleAppSolution/DreamCome/DreamCome';
-import Anywhere from '../../Components/FuleAppSolution/Anywhere/Anywhere';
-import OurWorks from '../../Components/Comman/OurWorks/OurWorks';
-import LookingServices from '../../Components/Comman/LookingServices/LookingServices';
-import Offering from '../../Components/Comman/Offering/Offering';
-import Inspiration from '../../Components/Comman/Inspiration/Inspiration';
-import Listening from '../../Components/Comman/Listening/Listening';
+import React, { lazy } from 'react'
+
+const Banner = lazy(() => import('../../Components/FuleAppSolution/Hero/Banner'));
+const WhyUs = lazy(() => import('../../Components/FuleAppSolution/WhyUs/WhyUs'));
+const AppModels = lazy(() => import('../../Components/FuleAppSolution/AppModels/AppModels'));
+const Difference = lazy(() => import('../../Components/FuleAppSolution/Difference/Difference'));
+const SolutionWork = lazy(() => import('../../Components/FuleAppSolution/SolutionWork/SolutionWork'));
+const DreamCome = lazy(() => import('../../Components/FuleAppSolution/DreamCome/DreamCome'));
+const Anywhere = lazy(() => import('../../Components/FuleAppSolution/Anywhere/Anywhere'));
+const OurWorks = lazy(() => import('../../Components/Comman/OurWorks/OurWorks'));
+const LookingServices = lazy(() => import('../../Components/Comman/LookingServices/LookingServices'));
+const Offering = lazy(() => import('../../Components/Comman/Offering/Offering'));
+const Inspiration = lazy(() => import('../../Components/Comman/Inspiration/Inspiration'));
+const Listening = lazy(() => import('../../Components/Comman/Listening/Listening'));
 
 export default function FuleAppSolution() {
   return (

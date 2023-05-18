@@ -50,7 +50,7 @@ margin: 0;
 .menu_block li {
   padding-right: 40px;
 }
-.menu_block li > a 
+.menu_block li > a , .menu_block li .header_link
 {
   display: inline-block;
   color: rgba(0,0,0,1);
@@ -62,8 +62,9 @@ margin: 0;
   position: relative;
   text-decoration: none;
   padding: 16px 0;
+  cursor: pointer;
 }
-.menu_block li > a::after{
+.menu_block li > a::after, .menu_block li .header_link::after{
   content: '';
   position: absolute;
   bottom: 0;
@@ -78,14 +79,16 @@ left: auto;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-.menu_block li a:hover::after, .menu_block li a.active::after{
+.menu_block li a:hover::after, .menu_block li a.active::after,
+.menu_block li .header_link:hover::after, .menu_block li .header_link.active::after{
   opacity: 1;
   visibility: visible;
 right: auto;
 left: 0;
 width: 100%;
 }
-.menu_block li a:hover, .menu_block li a.active{
+.menu_block li a:hover, .menu_block li a.active,
+.menu_block li .header_link:hover, .menu_block li .header_link.active{
   background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -147,6 +150,13 @@ display: none;
   -webkit-animation: animWrapper .4s ease-in-out;
           animation: animWrapper .4s ease-in-out;
 }
+.view_all_services{
+  background: linear-gradient(to right, #0085C3 0%, #3DE2F4 51%, #0085C3 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+
 @-webkit-keyframes animWrapper{
   0% {
       display: none;
@@ -333,7 +343,7 @@ display: none;
 
 .company_mega {
   background-color: rgba(0,0,0, 1);
-  width: 53%;
+  width: 60%;
   position: absolute;
   right: 0;
   display: block;
@@ -608,6 +618,12 @@ display: none;
   .workshop_block h3 {
       font-size: 21px;
   }
+  .header_btn .button span {
+      padding: 10px 20px;
+  }
+  .menu_block li {
+      padding-right: 25px;
+  }
 }
 
 
@@ -769,7 +785,9 @@ display: none;
   .services_mega_menu .fade:not(.show) {
       opacity: 1;
   }
-
+  .menu_block li > a, .menu_block li .header_link{
+    padding: 0;
+  }
 
   .services_mega{
       position: relative;

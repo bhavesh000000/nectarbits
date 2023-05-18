@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import './Difference.css'
 
-import difference_img from '../../../Assets/Images/Slution/difference_img.png'
+import difference_img from '../../../Assets/Images/Slution/difference_img.webp'
 import Tab from 'react-bootstrap/Tab';
 import { DifferenceData } from '../../../Immutable/FuleAppSolution/FuleSolutionData';
 

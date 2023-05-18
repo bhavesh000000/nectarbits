@@ -2,17 +2,17 @@ import React from 'react'
 
 import './CoreServices.css';
 
-import ic_react_native from '../../../Assets/Images/Services/ic_react_native.png';
-import ic_flutter from '../../../Assets/Images/Services/ic_flutter.png';
-import ic_swift from '../../../Assets/Images/Services/ic_swift.png';
-import ic_ios from '../../../Assets/Images/Services/ic_ios.png';
-import img_mobile_app_devlopment from '../../../Assets/Images/Services/img_mobile_app_devlopment.png';
-import img_web_development from '../../../Assets/Images/Services/img_web_development.png';
-import ic_php from '../../../Assets/Images/Services/ic_php.png';
-import ic_laravel from '../../../Assets/Images/Services/ic_laravel.png';
-import img_ui_ux from '../../../Assets/Images/Services/img_ui_ux.png';
+import ic_react_native from '../../../Assets/Images/Services/ic_react_native.webp';
+import ic_flutter from '../../../Assets/Images/Services/ic_flutter.webp';
+import ic_swift from '../../../Assets/Images/Services/ic_swift.webp';
+import ic_ios from '../../../Assets/Images/Services/ic_ios.webp';
+import img_mobile_app_devlopment from '../../../Assets/Images/Services/img_mobile_app_devlopment.webp';
+import img_web_development from '../../../Assets/Images/Services/img_web_development.webp';
+import ic_php from '../../../Assets/Images/Services/ic_php.webp';
+import ic_laravel from '../../../Assets/Images/Services/ic_laravel.webp';
+import img_ui_ux from '../../../Assets/Images/Services/img_ui_ux.webp';
 
-import ic_more from '../../../Assets/Images/Services/ic_more.png';
+import ic_more from '../../../Assets/Images/Services/ic_more.webp';
 
 export default function CoreServices() {
   return (

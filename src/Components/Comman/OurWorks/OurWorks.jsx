@@ -2,9 +2,9 @@ import React from 'react'
 
 import './OurWorks.css';
 
-import our_works_img1 from '../../../Assets/Images/our_works_img1.png';
-import our_works_img2 from '../../../Assets/Images/our_works_img2.png';
-import our_works_img3 from '../../../Assets/Images/our_works_img3.png';
+import our_works_img1 from '../../../Assets/Images/our_works_img1.webp';
+import our_works_img2 from '../../../Assets/Images/our_works_img2.webp';
+import our_works_img3 from '../../../Assets/Images/our_works_img3.webp';
 
 export default function OurWorks() {
   return (

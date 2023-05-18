@@ -2,16 +2,16 @@ import React from 'react'
 
 import './Footer.css'
 
-import logo from '../../../Assets/Images/logo.png'
+import logo from '../../../Assets/Images/logo.webp'
 
-import ic_facebook from '../../../Assets/Images/ic_facebook.png'
-import ic_twitter from '../../../Assets/Images/ic_twitter.png'
-import ic_instagram from '../../../Assets/Images/ic_instagram.png'
-import ic_linked_in from '../../../Assets/Images/ic_linked_in.png'
-import ic_youtube from '../../../Assets/Images/ic_youtube.png'
-import ic_dribble from '../../../Assets/Images/ic_dribble.png'
+import ic_facebook from '../../../Assets/Images/ic_facebook.webp'
+import ic_twitter from '../../../Assets/Images/ic_twitter.webp'
+import ic_instagram from '../../../Assets/Images/ic_instagram.webp'
+import ic_linked_in from '../../../Assets/Images/ic_linked_in.webp'
+import ic_youtube from '../../../Assets/Images/ic_youtube.webp'
+import ic_dribble from '../../../Assets/Images/ic_dribble.webp'
 
-import footer_img from '../../../Assets/Images/footer_img.png'
+import footer_img from '../../../Assets/Images/footer_img.webp'
 
 export default function Footer() {
   return (

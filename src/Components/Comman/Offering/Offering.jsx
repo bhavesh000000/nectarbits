@@ -2,9 +2,9 @@ import React from 'react'
 
 import './Offering.css'
 
-import offering_img1 from '../../../Assets/Images/Services/offering_img1.png';
-import offering_img2 from '../../../Assets/Images/Services/offering_img2.png';
-import offering_img3 from '../../../Assets/Images/Services/offering_img3.png';
+import offering_img1 from '../../../Assets/Images/Services/offering_img1.webp';
+import offering_img2 from '../../../Assets/Images/Services/offering_img2.webp';
+import offering_img3 from '../../../Assets/Images/Services/offering_img3.webp';
 
 export default function Offering() {
   return (

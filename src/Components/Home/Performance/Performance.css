@@ -8,10 +8,7 @@
 
 /*============== Performance Section Css Start ===============*/
 
-@font-face {
-    font-family: Helvetica_Regular;
-    src: url(../../../Assets/Fonts/HelveticaNowText-Regular.otf);
-}
+
 
 
 .performance_wrapper{
@@ -79,9 +76,8 @@
 	background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-	font-family: Helvetica_Regular;
 	font-size: 70px;
-	font-weight: 400;
+	font-weight: 500;
 }
 .performance_conte p{
 	color: rgba(0,0,0,1);

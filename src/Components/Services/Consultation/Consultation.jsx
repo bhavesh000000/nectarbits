@@ -2,14 +2,14 @@ import React from 'react'
 
 import './Consultation.css'
 
-import consultation_img1 from '../../../Assets/Images/Services/consultation_img1.png'
-import consultation_img2 from '../../../Assets/Images/Services/consultation_img2.png'
-import consultation_img3 from '../../../Assets/Images/Services/consultation_img3.png'
-import consultation_img4 from '../../../Assets/Images/Services/consultation_img4.png'
-import consultation_img5 from '../../../Assets/Images/Services/consultation_img5.png'
-import consultation_img6 from '../../../Assets/Images/Services/consultation_img6.png'
-import consultation_img7 from '../../../Assets/Images/Services/consultation_img7.png'
-import consultation_img8 from '../../../Assets/Images/Services/consultation_img8.png'
+import consultation_img1 from '../../../Assets/Images/Services/consultation_img1.webp'
+import consultation_img2 from '../../../Assets/Images/Services/consultation_img2.webp'
+import consultation_img3 from '../../../Assets/Images/Services/consultation_img3.webp'
+import consultation_img4 from '../../../Assets/Images/Services/consultation_img4.webp'
+import consultation_img5 from '../../../Assets/Images/Services/consultation_img5.webp'
+import consultation_img6 from '../../../Assets/Images/Services/consultation_img6.webp'
+import consultation_img7 from '../../../Assets/Images/Services/consultation_img7.webp'
+import consultation_img8 from '../../../Assets/Images/Services/consultation_img8.webp'
 
 export default function Consultation() {
   return (

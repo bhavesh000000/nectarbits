@@ -7,7 +7,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import e_commrce_solution from '../../../Assets/Images/e_commrce_solution.png';
+import e_commrce_solution from '../../../Assets/Images/e_commrce_solution.webp';
 
 
 export default function OurServices() {

@@ -1,5 +1,5 @@
 
-var hero_img = require('../../Assets/Images/MobileAppDevelopment/hero_img.png')
+var hero_img = require('../../Assets/Images/MobileAppDevelopment/hero_img.webp')
 export const ServicesHeroData = [
     {
         data:{

@@ -2,14 +2,14 @@ import React from 'react'
 
 import './Industries.css'
 
-import industries_img1 from '../../../Assets/Images/industries_img1.png'
-import industries_img2 from '../../../Assets/Images/industries_img2.png'
-import industries_img3 from '../../../Assets/Images/industries_img3.png'
-import industries_img4 from '../../../Assets/Images/industries_img4.png'
-import industries_img5 from '../../../Assets/Images/industries_img5.png'
-import industries_img6 from '../../../Assets/Images/industries_img6.png'
-import industries_img7 from '../../../Assets/Images/industries_img7.png'
-import industries_img8 from '../../../Assets/Images/industries_img8.png'
+import industries_img1 from '../../../Assets/Images/industries_img1.webp'
+import industries_img2 from '../../../Assets/Images/industries_img2.webp'
+import industries_img3 from '../../../Assets/Images/industries_img3.webp'
+import industries_img4 from '../../../Assets/Images/industries_img4.webp'
+import industries_img5 from '../../../Assets/Images/industries_img5.webp'
+import industries_img6 from '../../../Assets/Images/industries_img6.webp'
+import industries_img7 from '../../../Assets/Images/industries_img7.webp'
+import industries_img8 from '../../../Assets/Images/industries_img8.webp'
 
 export default function Industries() {
   return (

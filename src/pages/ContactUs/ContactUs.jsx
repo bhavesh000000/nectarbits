@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { lazy } from 'react'
 
-import Contact from '../../Components/Contact/Contact/Contact'
+
+const Contact = lazy(() => import('../../Components/Contact/Contact/Contact'));
 
 export default function ContactUs() {
   return (

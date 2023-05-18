@@ -2,10 +2,10 @@ import React from 'react'
 
 import './Inspiration.css'
 
-import insights_image_1 from '../../../Assets/Images/insights_image_1.png'
-import insights_image_2 from '../../../Assets/Images/insights_image_2.png'
-import insights_image_3 from '../../../Assets/Images/insights_image_3.png'
-import insights_image_4 from '../../../Assets/Images/insights_image_4.png'
+import insights_image_1 from '../../../Assets/Images/insights_image_1.webp'
+import insights_image_2 from '../../../Assets/Images/insights_image_2.webp'
+import insights_image_3 from '../../../Assets/Images/insights_image_3.webp'
+import insights_image_4 from '../../../Assets/Images/insights_image_4.webp'
 
 export default function Inspiration() {
   return (

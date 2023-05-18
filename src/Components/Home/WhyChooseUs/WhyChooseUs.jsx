@@ -2,15 +2,15 @@ import React from 'react'
 
 import './WhyChooseUs.css'
 
-import choose_us_bg1 from '../../../Assets/Images/choose_us_bg1.png';
-import choose_us_bg2 from '../../../Assets/Images/choose_us_bg2.png';
-import choose_us_bg3 from '../../../Assets/Images/choose_us_bg3.png';
-import choose_us_bg4 from '../../../Assets/Images/choose_us_bg4.png';
+import choose_us_bg1 from '../../../Assets/Images/choose_us_bg1.webp';
+import choose_us_bg2 from '../../../Assets/Images/choose_us_bg2.webp';
+import choose_us_bg3 from '../../../Assets/Images/choose_us_bg3.webp';
+import choose_us_bg4 from '../../../Assets/Images/choose_us_bg4.webp';
 
-import choose_us_ic1 from '../../../Assets/Images/choose_us_ic1.png';
-import choose_us_ic2 from '../../../Assets/Images/choose_us_ic2.png';
-import choose_us_ic3 from '../../../Assets/Images/choose_us_ic3.png';
-import choose_us_ic4 from '../../../Assets/Images/choose_us_ic4.png';
+import choose_us_ic1 from '../../../Assets/Images/choose_us_ic1.webp';
+import choose_us_ic2 from '../../../Assets/Images/choose_us_ic2.webp';
+import choose_us_ic3 from '../../../Assets/Images/choose_us_ic3.webp';
+import choose_us_ic4 from '../../../Assets/Images/choose_us_ic4.webp';
 
 export default function WhyChooseUs() {
   return (

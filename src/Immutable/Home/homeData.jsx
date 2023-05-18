@@ -4,7 +4,7 @@ export const headerData = [
         data: {
             id:1,
             title: "Mobile App",
-            data:  [{ name: "React Native Development", path:'/services' }, { name: "Flutter App Development", path:'/mobiledevelopment' }, { name: "iPhone App Development" }, { name: "Android App Development" }, { name: "iPad App Development" }, { name: "Swift App Development" }]
+            data:  [{ name: "Services", path:'/services' },{ name: "React Native Development" }, { name: "Flutter App Development", path:'/mobiledevelopment' }, { name: "iPhone App Development" }, { name: "Android App Development" }, { name: "iPad App Development" }, { name: "Swift App Development" }]
 
         }
     },
@@ -36,10 +36,10 @@ export const headerData = [
 ]
 
 
-var products_ic1 = require('../../Assets/Images/products_ic1.png');
-var products_ic2 = require('../../Assets/Images/products_ic2.png');
-var products_ic3 = require('../../Assets/Images/products_ic3.png');
-var products_ic4 = require('../../Assets/Images/products_ic4.png');
+var products_ic1 = require('../../Assets/Images/products_ic1.webp');
+var products_ic2 = require('../../Assets/Images/products_ic2.webp');
+var products_ic3 = require('../../Assets/Images/products_ic3.webp');
+var products_ic4 = require('../../Assets/Images/products_ic4.webp');
 
 export const productsData = [
     {
@@ -83,6 +83,7 @@ export const productsData = [
             tabImage:products_ic4,
             tabTitle: "Fuel Delivery App",
             subTitle: 'Multi-Vendor eCommerce Platform',
+            linkTo:"/fulesolution",
             accData : {
                 id:4,
                 title:'Use Cases',

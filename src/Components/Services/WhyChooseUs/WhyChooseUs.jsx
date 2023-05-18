@@ -2,9 +2,9 @@ import React from 'react'
 
 import './WhyChooseUs.css';
 
-import why_chooseus_img1 from '../../../Assets/Images/Services/why_chooseus_img1.png'
-import why_chooseus_img2 from '../../../Assets/Images/Services/why_chooseus_img2.png'
-import why_chooseus_img3 from '../../../Assets/Images/Services/why_chooseus_img3.png'
+import why_chooseus_img1 from '../../../Assets/Images/Services/why_chooseus_img1.webp'
+import why_chooseus_img2 from '../../../Assets/Images/Services/why_chooseus_img2.webp'
+import why_chooseus_img3 from '../../../Assets/Images/Services/why_chooseus_img3.webp'
 
 export default function WhyChooseUs() {
   return (

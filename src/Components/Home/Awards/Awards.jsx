@@ -2,13 +2,13 @@ import React from 'react'
 
 import './Awards.css'
 
-import awards_bg from '../../../Assets/Images/awards_bg.png'
-import awards_img1 from '../../../Assets/Images/awards_img1.png'
-import awards_img2 from '../../../Assets/Images/awards_img2.png'
-import awards_img3 from '../../../Assets/Images/awards_img3.png'
-import awards_img4 from '../../../Assets/Images/awards_img4.png'
-import awards_img5 from '../../../Assets/Images/awards_img5.png'
-import awards_img6 from '../../../Assets/Images/awards_img6.png'
+import awards_bg from '../../../Assets/Images/awards_bg.webp'
+import awards_img1 from '../../../Assets/Images/awards_img1.webp'
+import awards_img2 from '../../../Assets/Images/awards_img2.webp'
+import awards_img3 from '../../../Assets/Images/awards_img3.webp'
+import awards_img4 from '../../../Assets/Images/awards_img4.webp'
+import awards_img5 from '../../../Assets/Images/awards_img5.webp'
+import awards_img6 from '../../../Assets/Images/awards_img6.webp'
 
 export default function Awards() {
   return (

@@ -2,13 +2,13 @@ import React from 'react'
 
 import './OurClients.css';
 
-import clients_img1 from '../../../Assets/Images/clients_img1.png';
-import clients_img2 from '../../../Assets/Images/clients_img2.png';
-import clients_img3 from '../../../Assets/Images/clients_img3.png';
-import clients_img4 from '../../../Assets/Images/clients_img4.png';
-import clients_img5 from '../../../Assets/Images/clients_img5.png';
-import clients_img6 from '../../../Assets/Images/clients_img6.png';
-import clients_img7 from '../../../Assets/Images/clients_img7.png';
+import clients_img1 from '../../../Assets/Images/clients_img1.webp';
+import clients_img2 from '../../../Assets/Images/clients_img2.webp';
+import clients_img3 from '../../../Assets/Images/clients_img3.webp';
+import clients_img4 from '../../../Assets/Images/clients_img4.webp';
+import clients_img5 from '../../../Assets/Images/clients_img5.webp';
+import clients_img6 from '../../../Assets/Images/clients_img6.webp';
+import clients_img7 from '../../../Assets/Images/clients_img7.webp';
 
 export default function OurClients() {
   return (
