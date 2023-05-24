@@ -1,0 +1,209 @@
+
+.proficient_wrapper {
+    background: #000;
+    padding: 96px 0 120px 0;
+    margin-top: 180px;
+}
+
+.proficient_title h4{
+    display: inline-block;
+    background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    color: rgba(0,110,161,1);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 0 5px 20px;
+}
+.proficient_title h4::after {
+    content: '';
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(116.56505117707799deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
+}
+.proficient_title h2{
+    color: rgba(255,255,255,1);
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+.proficient_title p{
+    color: rgba(255,255,255,1);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 1.8;
+    margin-top: 16px;
+    max-width: 700px;
+}
+.proficient_title{
+    margin-bottom: 53px;
+}
+.proficient_sec{
+    display: flex;
+}
+.proficient_conte{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+.proficient_conte::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 2px;
+    height: 75%;
+    background: rgba(58,58,60, 1);
+    z-index: -1;
+}
+.proficient_conte:last-child::after{
+    display: none;
+}
+.proficient_section{
+    padding: 25px;
+}
+.proficient_section ul{
+    display: flex;
+    align-items: center;
+    margin: -25px;
+    flex-wrap: wrap;
+}
+.proficient_section ul li{
+    padding: 25px;
+    width: 50%;
+}
+.proficient_inner_box{
+    border-radius: 15px;
+    background-image: linear-gradient(270deg, rgba(225, 0, 255, 1) 0%, rgba(127, 0, 255, 1) 100%);
+    padding: 2px;
+}
+.proficient_inner_bg {
+    border-radius: 15px;
+    background-color: rgba(0,0,0, 1);
+    padding: 30px 40px 30px 25px;
+    min-height: 270px;
+}
+.proficient_inner_bg h3{
+    color: rgba(255,255,255,1);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+.proficient_icon{
+    margin-top: 30px;
+}
+.cm_proficient_box{
+    width: 100%;
+    border-radius: 15px;
+    background-image: linear-gradient(270deg, rgba(225, 0, 255, 1) 0%, rgba(127, 0, 255, 1) 100%);
+    min-height: 270px;
+    padding: 30px 25px;
+    margin: 25px 0;
+}
+.cm_proficient_box h2{
+    color: rgba(255,255,255,1);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+.cm_proficient_icon{
+    margin-top: 30px;
+}
+
+@media (max-width:1199px){
+    .proficient_wrapper {
+        padding: 76px 0 70px 0;
+        margin-top: 110px;
+    }
+    .proficient_inner_bg {
+        padding: 30px 25px 30px 25px;
+    }
+    .proficient_section ul{
+        margin: -15px;
+    }
+    .proficient_section ul li {
+        padding: 15px;
+    }
+}
+@media (max-width:991px){
+    .proficient_wrapper {
+        padding: 56px 0 50px 0;
+        margin-top: 80px;
+    }
+    .proficient_title {
+        margin-bottom: 30px;
+    }
+    .proficient_title h2 {
+        font-size: 32px;
+    }
+    .proficient_title p {
+        margin-top: 10px;
+    }
+    .proficient_sec {
+        flex-wrap: wrap;
+    }
+    .proficient_conte{
+        width: 100%;
+    }
+    .proficient_conte::after{
+        display: none;
+    }
+    .proficient_inner_bg {
+        min-height: 230px;
+    }
+    .proficient_section {
+        padding: 0;
+    }
+    .cm_proficient_box {
+        min-height: 180px;
+        margin: 25px 0;
+    }
+
+}
+@media (max-width: 767px){
+    .proficient_wrapper {
+        padding: 40px 0 50px 0;
+        margin-top: 50px;
+    }
+    .proficient_title h2 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 575px){
+    .proficient_inner_bg h3 {
+        font-size: 22px;
+    }
+    .cm_proficient_box h2 {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+    .proficient_inner_bg {
+        padding: 30px 20px 30px 20px;
+        min-height: 256px;
+    }
+}
+@media (max-width: 450px){
+    .proficient_section ul li {
+        width: 100%;
+    }
+    .proficient_inner_bg {
+        padding: 30px 20px 30px 20px;
+        min-height: 100%;
+    }
+    .proficient_title h2 {
+        font-size: 27px;
+    }
+    .cm_proficient_box h2 {
+        font-size: 25px;
+    }
+    .cm_proficient_box {
+        padding: 20px 15px;
+    }
+}

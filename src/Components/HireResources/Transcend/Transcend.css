@@ -1,0 +1,159 @@
+
+
+.transcend_wrapper{
+    padding-top: 180px;
+}
+.transcend_title h4{
+    display: inline-block;
+    background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    color: rgba(0,110,161,1);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 0 5px 20px;
+}
+.transcend_title h4::after {
+    content: '';
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(116.56505117707799deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
+}
+.transcend_title h2{
+    color: rgba(0,0,0,1);
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 18px;
+}
+.transcend_title p{
+    color: rgba(0,0,0,1);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+    max-width: 860px;
+    margin-top: 8px;
+}
+.transcend_block{
+    margin-top: 55px;
+}
+.transcend_block ul{
+    display: flex;
+    align-items: center;
+    margin: -22px;
+    flex-wrap: wrap;
+}
+.transcend_block ul li{
+    width: 33.33%;
+    padding: 22px;
+}
+.transcend_box{
+    border-radius: 10px;
+    background-color: rgba(243,245,247, 1);
+    border: 1px solid transparent;
+    padding: 25px;
+    min-height: 230px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+.transcend_box:hover{
+    border: 1px solid rgba(0,0,0, 1);
+    background-color: rgba(255,255,255, 1);
+}
+.transcend_box::after{
+    content: '';
+    background: -webkit-linear-gradient(-45deg,#0085C3, #3DE2F4);
+    height: 100%;
+    width: 7px;
+    position: absolute;
+    top: 0;
+    left: -7px;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+.transcend_box:hover::after{
+    left: 0;
+    opacity: 1;
+}
+
+.transcend_box h3{
+    color: rgba(0,0,0,1);
+    font-size: 20px;
+    font-weight: 600;
+}
+.transcend_box p{
+    color: rgba(0,0,0,1);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+@media (max-width: 1199px){
+    .transcend_wrapper {
+        padding-top: 110px;
+    }
+    .transcend_box {
+        min-height: 275px;
+    }
+}
+
+@media (max-width: 991px){
+    .transcend_wrapper {
+        padding-top: 80px;
+    }
+    .transcend_title h2 {
+        font-size: 36px;
+    }
+    .transcend_block {
+        margin-top: 35px;
+    }
+    .transcend_block ul li {
+        width: 50%;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .transcend_wrapper {
+        padding-top: 50px;
+    }
+    .transcend_title h2 {
+        font-size: 30px;
+        margin-top: 12px;
+    }
+    .transcend_block ul{
+        margin: -10px;
+    }
+    .transcend_block ul li{
+        padding: 10px;
+    }
+    .transcend_box {
+        padding: 20px 15px 20px 25px;
+        min-height: 332px;
+    }
+}
+
+@media (max-width: 575px){
+    .transcend_wrapper {
+        padding-top: 40px;
+    }
+    .transcend_title h2 {
+        font-size: 26px;
+    }
+    .transcend_block ul li {
+        width: 100%;
+    }
+    .transcend_box {
+        padding: 20px 15px 20px 25px;
+        min-height: 100%;
+    }
+}
+@media (max-width: 367px){
+    
+}

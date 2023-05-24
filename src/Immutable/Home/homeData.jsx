@@ -4,7 +4,7 @@ export const headerData = [
         data: {
             id:1,
             title: "Mobile App",
-            data:  [{ name: "Services", path:'/services' },{ name: "React Native Development" }, { name: "Flutter App Development", path:'/mobiledevelopment' }, { name: "iPhone App Development" }, { name: "Android App Development" }, { name: "iPad App Development" }, { name: "Swift App Development" }]
+            data:  [{ name: "Services", path:'/services' },{ name: "React Native Development", path:'/reactnative' }, { name: "Flutter App Development", path:'/mobiledevelopment' }, { name: "iPhone App Development" }, { name: "Android App Development" }, { name: "iPad App Development" }, { name: "Swift App Development" }]
 
         }
     },
@@ -50,7 +50,7 @@ export const productsData = [
             accData : {
                 id:1,
                 title:'Use Cases',
-                data: ["React Native Development", "Flutter App Development", "iPhone App Development", "Android App Development", "iPad App Development", 'Swift App Development']
+                data: [{ name: "Salon Booking App", path:'/fulesolution' }, { name:"Car Wash App", path:'/solutions'}, { name:"Home Service App"}, {name:"Pharmacy Delivery App"}, {name:"Taxi Booking App"}, {name:'Laundry Booking App'}, {name:'Electric Vehicle Charging App'}]
             }
         }
     },
@@ -62,7 +62,7 @@ export const productsData = [
             accData : {
                 id:2,
                 title:'Use Cases',
-                data: ["React Native Development", "Flutter App Development"]
+                data: [{ name: "Salon Booking App" }, { name:"Car Wash App"}, { name:"Home Service App"}, {name:"Pharmacy Delivery App"}, {name:"Taxi Booking App"}, {name:'Laundry Booking App'}, {name:'Electric Vehicle Charging App'}]
             }
         }
     },
@@ -74,7 +74,7 @@ export const productsData = [
             accData : {
                 id:3,
                 title:'Use Cases',
-                data: ["React Native Development", "Flutter App Development"]
+                data: [{ name: "Salon Booking App" }, { name:"Car Wash App"}, { name:"Home Service App"}, {name:"Pharmacy Delivery App"}, {name:"Taxi Booking App"}, {name:'Laundry Booking App'}, {name:'Electric Vehicle Charging App'}]
             }
         }
     },
@@ -87,8 +87,62 @@ export const productsData = [
             accData : {
                 id:4,
                 title:'Use Cases',
-                data: ["React Native Development", "Flutter App Development"]
+                data: [{ name: "Salon Booking App" }, { name:"Car Wash App"}, { name:"Home Service App"}, {name:"Pharmacy Delivery App"}, {name:"Taxi Booking App"}, {name:'Laundry Booking App'}, {name:'Electric Vehicle Charging App'}]
             }
         }
+    },
+]
+
+var ic_mvp_development = require('../../Assets/Images/ic_mvp_development.webp');
+var triangle = require('../../Assets/Images/triangle.webp');
+
+export const WorkforceData = [
+    {
+        ap_icon:ic_mvp_development,
+        title:'POC/MVP Development',
+        conte:'Recreating the Experience and application for your business that customers love already.',
+        item:[ {title:'Product Development' , icon: triangle }, {title:'Mobile App Development' , icon: triangle }, {title:'Website Development' , icon: triangle }, {title:'QualityAssurance' , icon: triangle } ],
+        link:'Learn more'
+    },
+    {
+        ap_icon:ic_mvp_development,
+        title:'Hire Dedicated Developer',
+        conte:'We minimize your efforts by eliminating 99% of average talent and offering the Top Resources.',
+        item:[ {title:'Hire Laravel Developer' , icon: triangle }, {title:'Hire iOS Developer' , icon: triangle }, {title:'Hire Android Developer' , icon: triangle }, {title:'Hire Backend Developer' , icon: triangle } ],
+        link:'Learn more'
+    }, 
+    {
+        ap_icon:ic_mvp_development,
+        title:'On-Demand solutions',
+        conte:'We design solutions fro startup needs, to expand medium size businesses, and satisfy enterprise-level expectation.',
+        item:[ {title:'E-commerce Solution' , icon: triangle }, {title:'Food Delievry Solution' , icon: triangle }, {title:'Car Wash Solution' , icon: triangle }, {title:'Fuel Delivery Solution' , icon: triangle } ],
+        link:'Learn more'
+    }
+]
+
+
+var ic_onboarding = require('../../Assets/Images/ic_onboarding.webp');
+var ic_agile_project = require('../../Assets/Images/ic_agile_project.webp');
+var ic_consistant = require('../../Assets/Images/ic_consistant.webp');
+
+
+export const ManagementData = [
+    {
+        ap_icon:ic_onboarding,
+        title:'Fast Onboarding',
+        conte:'We excel at streamlined communication. Enabling rapid application development to our global clientele. We make time, culture and location differences imperceptible.',
+        item:[ 'Strategy', 'Visibility', 'Transoparency' ],
+    },
+    {
+        ap_icon:ic_agile_project,
+        title:'Agile Project Management',
+        conte:'Keeping it simple and clear. A solid project management process in place to meet client’s expectations, avoid budget overruns and minimize project risks. Delivering a software product without a hitch from scope to delivery.',
+        item:[ 'Agile', 'Responsive', 'Quality' ],
+    },
+    {
+        ap_icon:ic_consistant,
+        title:'Consistent Delivery',
+        conte:'In-depth expertise, time-tested processes and tech excellence allow us to deliver optimal output. Wenimplement various software development methedologies to deliver on-time software.',
+        item:[ 'Scalability', 'Certainty', 'Performance' ],
     },
 ]

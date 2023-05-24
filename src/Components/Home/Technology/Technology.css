@@ -19,11 +19,12 @@
 }
 .technology_title h3{
     color: rgba(0,0,0,1);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     max-width: 1000px;
     margin: 10px auto 0;
     line-height: 1.5;
+    max-width: 870px;
 }
 
 .technology_block{
@@ -52,13 +53,13 @@
     border-radius: 20px;
     background-color: rgba(243,245,247, 1);
     padding:22px 10px;
-    min-height: 430px;
+    min-height: 470px;
 }
 .technology_conte_block{
     border-radius: 20px;
     background-color: rgba(243,245,247, 1);
     padding: 25px 20px;
-    min-height: 430px;
+    min-height: 470px;
 }
 .technology_list{
     margin: 0;

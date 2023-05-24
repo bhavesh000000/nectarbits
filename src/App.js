@@ -6,10 +6,13 @@ import { Routes, Route } from "react-router-dom";
 import Suspenseloader from "./Components/Loaders/Suspenseloader";
 
 const Home = lazy(() => import( "./pages/Home/Home"));
-const Services = lazy(() => import( "./pages/Services/Services"));
-const ContactUs = lazy(() => import( "./pages/ContactUs/ContactUs"));
-const FuleAppSolution = lazy(() => import( "./pages/FuleAppSolution/FuleAppSolution"));
-const MobileDevelopment = lazy(() => import("./pages/MobileDevelopment/MobileDevelopment"));
+const Services = lazy(() => import( "./pages/Services/software-development-services"));
+const ContactUs = lazy(() => import( "./pages/ContactUs/contact-us"));
+const FuleAppSolution = lazy(() => import( "./pages/FuleAppSolution/fule-app-solution"));
+const MobileDevelopment = lazy(() => import("./pages/MobileDevelopment/mobile-app-development"));
+const ReactNative = lazy(() => import("./pages/ReactNative/ReactNative"));
+const HireSoftware = lazy(() => import("./pages/HireResources/hire-software-developers"));
+const Solutions = lazy(() => import("./pages/Solutions/software-development-solutions"));
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/fulesolution" element={<FuleAppSolution />} />
           <Route path="/mobiledevelopment" element={<MobileDevelopment />} />
+          <Route path="/reactnative" element={<ReactNative />} />
+          <Route path="/hiresoftware" element={<HireSoftware />} />
+          <Route path="/solutions" element={<Solutions />} />
           
       </Routes>
 

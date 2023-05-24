@@ -3,7 +3,7 @@ import React from 'react'
 import './OurTeam.css'
 
 import our_team_logo from '../../../Assets/Images/Services/our_team_logo.webp'
-import our_team_img1 from '../../../Assets/Images/Services/our_team_img1.webp'
+import our_team_img1 from '../../../Assets/Images/Services/ic_checkmark.webp'
 
 export default function OurTeam() {
   return (

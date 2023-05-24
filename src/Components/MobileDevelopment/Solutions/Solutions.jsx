@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import './Solutions.css';
 
@@ -8,6 +8,7 @@ import Tab from 'react-bootstrap/Tab';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { SolutionData } from '../../../Immutable/MobileDevelopment/MobileDevelopment';
 
 export default function Solutions() {
 
@@ -18,6 +19,9 @@ export default function Solutions() {
         slidesToShow: 1,
         slidesToScroll: 1
       };
+
+
+    const [Solution, SetSolution] = useState("Taxi App");
 
   return (
     <div class="solutions_wrapper">
@@ -35,7 +39,16 @@ export default function Solutions() {
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="taxi">
                                     <div class="solutions_tabs">
                                         <div class="solutions_item">
-                                            <Nav variant="pills" className="flex-column">
+
+                                        <ul className="nav nav-tabs">
+                                            {
+                                                SolutionData?.map((solution) => <li key={solution} className="nav-item" onClick={()=>SetSolution(solution?.data?.tabTitle)}>
+                                                    <button className={`nav-link  ${solution?.data?.tabTitle == Solution && 'active'}`} >{solution?.data?.tabTitle}</button>
+                                                </li>)
+                                            }
+                                        </ul>
+
+                                            {/* <Nav variant="pills" className="flex-column">
                                                 <Nav.Item>
                                                     <Nav.Link eventKey="taxi">Taxi App</Nav.Link>
                                                 </Nav.Item>
@@ -63,14 +76,39 @@ export default function Solutions() {
                                                 <Nav.Item>
                                                     <Nav.Link eventKey="biometric">Biometric Sensor</Nav.Link>
                                                 </Nav.Item>
-                                            </Nav>
+                                            </Nav> */}
                                         </div>
                                     </div>
                                     <div className='solutions_tab_conte'>
                                         <Tab.Content>
-                                            <Tab.Pane eventKey="taxi">
+
+                                        {
+                                            SolutionData.map((solution, idx) => (
+                                                <div key={solution} className={`tab_pane ${Solution === solution?.data?.tabTitle ? 'tabs_active' : ''}`}>
+                                                    <div className='mobile_technologies' key={idx}>
+                                                        
+                                                        <Slider {...solutions_slider}>
+                                                            {solution?.data?.tabConte?.tabData?.map((item, index) => {
+                                                                console.log(item); 
+                                                                return (
+                                                                    <div key={index} className="taxi_app_sec">
+                                                                    <h3>{item?.title}</h3>
+                                                                    <p>{item?.conte}</p>
+                                                                    <div className="taxi_app_btn">
+                                                                        <a href="#0">{item?.link}</a>
+                                                                    </div>
+                                                                    </div>
+                                                                );
+                                                            })}
+                                                        </Slider>
+                                                    </div>
+                                                </div>
+                                            ))
+                                            }
+
+                                            {/* <Tab.Pane eventKey="taxi">
                                                 <div>
-                                                    <Slider {...solutions_slider}>
+                                                   
                                                         <div>
                                                             <div class="taxi_app_sec">
                                                                 <h3>Taxi App Development</h3>
@@ -101,7 +139,6 @@ export default function Solutions() {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </Slider>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="commerce">
@@ -183,7 +220,7 @@ export default function Solutions() {
                                                         <a href="#0">Learn More</a>
                                                     </div>
                                                 </div>
-                                            </Tab.Pane>
+                                            </Tab.Pane> */}
                                         </Tab.Content>
                                     </div>
                                 </Tab.Container>

@@ -48,20 +48,18 @@ export default function Footer() {
                         </div>
                         <div className="footer_menu_block">
                             <div className="footer_menu">
-                                <h2>Ready Solutions</h2>
+                                <h2>Solutions</h2>
                                 <ul>
-                                    <li><a href="#0">On-Demand App Solution</a></li>
-                                    <li><a href="#0">E-commerce App</a></li>
-                                    <li><a href="#0">Taxi Booking App</a></li>
-                                    <li><a href="#0">Taxi Dispatch App</a></li>
-                                    <li><a href="#0">Classified App</a></li>
-                                    <li><a href="#0">Grocery Delivery App</a></li>
-                                    <li><a href="#0">Food Delivery App</a></li>
-                                    <li><a href="#0">Car/Taxi Rental Software</a></li>
+                                    <li><a href="#0">E-Commerce </a></li>
+                                    <li><a href="#0">Car Wash App</a></li>
+                                    <li><a href="#0">Fuel Delivery App</a></li>
+                                    <li><a href="#0">Salon Appointment Booking Solution </a></li>
+                                    <li><a href="#0">On Demand Cleaning Business </a></li>
+                                    <li><a href="#0">Food Delivery </a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="footer_menu_block">
+                        {/* <div className="footer_menu_block">
                             <div className="footer_menu">
                                 <h2>Services</h2>
                                 <ul>
@@ -75,7 +73,7 @@ export default function Footer() {
                                     <li><a href="#0">Maintenance & Support</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="footer_career">
                         <div className="career_wrap">
@@ -84,7 +82,7 @@ export default function Footer() {
                                     <h3>Sales And Career</h3>
                                     <p><span>Email:</span><a href="mailto:admin@nectarbits.ca">admin@nectarbits.ca</a></p>
                                     <p><span>Phone:</span><a href="#0"> +1 778-552-2466</a></p>
-                                    <p><span>Skype:</span><a href="#0"> NECTARBITS.INQUIRY</a></p>
+                                    {/* <p><span>Skype:</span><a href="#0"> NECTARBITS.INQUIRY</a></p> */}
                                 </div>
                             </div>
                             <div className="career_block">

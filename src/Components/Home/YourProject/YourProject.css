@@ -29,7 +29,7 @@
 .your_project_btn a{
     display: inline-block;
     border-radius: 28px;
-    border: 2px solid rgba(255,255,255, 1);
+    border: 1px solid transparent;
     -webkit-box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
             box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
     color: rgba(255,255,255,1);
@@ -42,11 +42,12 @@
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    background: #000;
 }
 .your_project_btn a:hover{
     background: #fff;
-    border-color: rgba(0, 133, 195, 1);
-    color: rgba(0, 133, 195, 1);
+    border-color: #000;
+    color: #000;
 }
 
 @media (max-width: 1199px){

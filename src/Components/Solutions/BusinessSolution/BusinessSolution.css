@@ -1,0 +1,198 @@
+
+
+.business_solution_wrapper{
+    padding-top: 55px;
+}
+.business_solution_title h3{
+    display: inline-block;
+    background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    padding: 10px 0 5px 20px;
+}
+.business_solution_title h3::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(116.56505117707799deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
+}
+
+.business_bg {
+    background-repeat: no-repeat;
+    background-size: inherit;
+    padding: 20px 0 44px 60px;
+    min-height: 475px;
+}
+.business_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.business_sec{
+    width: 40%;
+}
+.business_tab_conte{
+    width: 55%;
+}
+.business_conte ul{
+    display: flex;
+    align-items: center;
+    margin: 0 -7px;
+}
+.business_conte ul li{
+    padding: 0 7px;
+}
+.business_conte ul li .nav_link{
+    border: 0;
+    outline: none;
+    border-radius: 6px;
+    background-color: #fff;
+    color: rgba(0,0,0,1);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 7px 12px;
+}
+
+.business_info h3{
+    color: rgba(0,0,0,1);
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+    margin-top: 15px;
+}
+.business_info p{
+    color: rgba(0,0,0,1);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 13px;
+}
+.business_link a{
+    display: inline-block;
+    color: rgba(0,0,0,1);
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid #000;
+    margin-top: 15px;
+}
+.business_link a span{
+    display: inline-block;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+.business_link a:hover span{
+    transform: translateX(5px);
+}
+
+.business_tab_body .accordion_collapse{
+    display: none;
+}
+.business_tab_body .accordion_collapse.active{
+    display: block;
+    -webkit-animation: business_tab_open .6s ease-in-out;
+    animation: business_tab_open .6s ease-in-out;
+}
+
+@keyframes business_tab_open{
+    0% {
+        display: none;
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    
+    1% {
+        display: block;
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    30% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+  }
+
+  .business_solution_block{
+    margin-top: 55px;
+  }
+  .cm_business_solution + .cm_business_solution{
+    margin-top: 90px;
+  }
+
+.orange_business_solution .business_conte ul li .nav_link{
+    background: rgba(253,231,224, 1);
+}
+.blue_business_solution .business_conte ul li .nav_link{
+    background-color: rgba(193,236,254, 1);
+}
+.yellow_business_solution .business_conte ul li .nav_link{
+    background: #FFF2AD;
+}
+.purple_business_solution .business_conte ul li .nav_link{
+    background-color: rgba(214,211,253, 1);
+}
+.darkyellow_business_solution .business_conte ul li .nav_link{
+    background: #FFE7BF;
+}
+.green_business_solution .business_conte ul li .nav_link{
+    background: #EEFFEB;
+}
+
+.business_conte ul li .nav_link.active{
+    background: #000;
+    color: #fff;
+}
+
+@media (max-width:1199px){
+    .business_bg {
+        background-size: cover;
+        min-height: 100%;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width:991px){
+    .business_solution_wrapper {
+        padding-top: 25px;
+    }
+    .business_info h3 {
+        font-size: 23px;
+    }
+    .cm_business_solution + .cm_business_solution {
+        margin-top: 50px;
+    }
+    .business_solution_block {
+        margin-top: 35px;
+    }
+}
+@media (max-width:767px){
+    .business_bg{
+        padding: 20px 20px 0 20px;
+    }
+    .business_block{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: -15px;
+    }
+    .business_sec, .business_tab_conte{
+        padding: 15px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 367px){
+    .business_solution_wrapper {
+        padding-top: 5px;
+    }
+}

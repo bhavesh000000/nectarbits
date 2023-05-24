@@ -41,7 +41,7 @@ useEffect(() => {
                 <div className='contact_us_wrap'>
                     <div className='contact_us_title'>
                         <h3>Contact Us</h3>
-                        <h2>Say hello and tell us your Queries; We <br /> are Listening</h2>
+                        <h2>Let's Discuss your Project</h2>
                     </div>
                     <div className='contact_us_block'>
                         <div id='script_show'></div>
@@ -58,11 +58,11 @@ useEffect(() => {
                           </div>
                           <div class="assistance_contact">
                               <div class="assistance_img">
-                                  <img src={ic_skype} alt="" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
                               </div>
                               <div class="assistance_conte">
-                                  <h4>HR Email</h4>
-                                  <a href="#0">hr.nectarbits@gmail.com</a>
+                                  <h4>Phone</h4>
+                                  <a href="#0">+1 778-552-2466</a>
                               </div>
                           </div>
                           <div class="assistance_block">

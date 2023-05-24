@@ -62,10 +62,20 @@ export default function Header() {
 
     // }
 
+    const [fix, setFix] = useState()
+    const setFixed = () => {
+        if (window.scrollY >= 300) {
+            setFix(true)
+        } else {
+            setFix(false)
+        }
+    }
+    window.addEventListener("scroll", setFixed)
+
 
 
     return (
-        <div className="header_wrapper">
+        <div className={`header_wrapper ${(fix ? 'sticky' : '')}`}>
             <div className="container">
                 <header className={`header_wrap ${(active ? 'open_menu' : '')}`}>
                     <div className="logo_wrap">
@@ -131,32 +141,7 @@ export default function Header() {
                                     </div>
                                 </div>
                             </li>
-                            <li><sapn className="company header_link" onClick={company_mega_open}>Company</sapn>
-                                <div className="company_mega">
-                                    <div className="company_mega_block">
-                                        <div className="company_left border_right">
-                                            <ul>
-                                                <li><a href="#0">Awards & Certifications</a></li>
-                                                <li><a href='#0'>Process</a></li>
-                                                <li><a href="#0">Team & Culture</a></li>
-                                                <li><a href="#0">Blog</a></li>
-                                                <li><a href="#0">Career</a></li>
-                                            </ul>
-                                        </div>
-                                        <div className="services_last_menu">
-                                            <div className="workshop_wrap">
-                                                <div className="workshop_block">
-                                                    <h3>Let’s start a new project Together!</h3>
-                                                    <div className="workshop_btn">
-                                                        <a href="#0">Schedule Meeting</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li><span className="products header_link" onClick={product_mega_open}>Products</span>
+                            <li><span className="products header_link" onClick={product_mega_open}>Solution</span>
                                 <div className="products_mega">
                                     <div className="services_mega_menu products_mega_menu">
                                         <div className="services_first_menu border_right">
@@ -204,7 +189,7 @@ export default function Header() {
                                                                         }
                                                                         <ul>
                                                                             {
-                                                                                product?.tabData?.accData?.data?.map((subData) => <li key={product}><a href="#0">{subData}</a></li>
+                                                                                product?.tabData?.accData?.data?.map((subData) => <li key={product}><NavLink to={subData.path} >{subData.name}</NavLink></li>
                                                                                 )
                                                                             }
                                                                         </ul>
@@ -234,7 +219,32 @@ export default function Header() {
                                     </div>
                                 </div>
                             </li>
-                            <li><NavLink to='/fulesolution'>Portfolio</NavLink></li>
+                            <li><NavLink to='/hiresoftware'>Hire Resources</NavLink></li>
+                            <li><sapn className="company header_link" onClick={company_mega_open}>Company</sapn>
+                                <div className="company_mega">
+                                    <div className="company_mega_block">
+                                        <div className="company_left border_right">
+                                            <ul>
+                                                <li><a href="#0">Awards & Certifications</a></li>
+                                                <li><a href='#0'>Process</a></li>
+                                                <li><a href="#0">Team & Culture</a></li>
+                                                <li><a href="#0">Blog</a></li>
+                                                <li><a href="#0">Career</a></li>
+                                            </ul>
+                                        </div>
+                                        <div className="services_last_menu">
+                                            <div className="workshop_wrap">
+                                                <div className="workshop_block">
+                                                    <h3>Let’s start a new project Together!</h3>
+                                                    <div className="workshop_btn">
+                                                        <a href="#0">Schedule Meeting</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                             <li><NavLink to='/contactus'>Contact Us</NavLink></li>
                             <div className="header_btn mobile_header_btn">
                                 <a className="button" href="#"><span>Enquire Now</span></a>

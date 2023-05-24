@@ -1,9 +1,8 @@
 import React from 'react'
 
 import './Hero.css'
-import { ServicesHeroData } from '../../../Immutable/ServicesHero/ServicesHero'
 
-export default function Hero() {
+export default function Hero({data}) {
   return (
     <div className='services_hero_sec'>
         <div class="banner_wrapper">
@@ -11,7 +10,7 @@ export default function Hero() {
                 <div class="container ">
                     <div class="banner_block">
                         {
-                            ServicesHeroData?.map( (ServicesHero) =>
+                            data?.map( (ServicesHero) =>
                                 <div class="banner_sec">
                                     <div class="banner_conte">
 

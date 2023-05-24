@@ -76,6 +76,20 @@
     top: 32%;
     right: -18%;
 }
+
+.react_native_page .services_hero_sec .banner_inner_conte h4{
+    margin-top: 15px;
+}
+.react_native_page .services_hero_sec .banner_inner_conte p{
+    margin-top: 20px;
+}
+.react_native_page .services_hero_sec .banner_block{
+    padding-top: 220px;
+}
+.react_native_page .services_hero_sec .banner_btn a{
+    margin-top: 35px;
+}
+
 /*============== Hero Section Css End ===============*/
 
 @media (max-width: 1360px){
@@ -130,6 +144,13 @@
     .services_hero_sec .banner_conte {
         width: 51%;
     }
+
+    .react_native_page .services_hero_sec .banner_block {
+        padding-top: 180px;
+    }
+    .react_native_page .services_hero_sec .banner_inner_conte h3 {
+        font-size: 47px;
+    }
 }
 
 @media (max-width: 767px){
@@ -151,6 +172,9 @@
         width: 100%;
         padding: 15px;
     }
+    .react_native_page .services_hero_sec .banner_block {
+        padding-top: 140px;
+    }
 }
 
 @media (max-width: 575px){
@@ -164,6 +188,12 @@
     .services_hero_sec .banner_inner_conte h4 {
         font-size: 32px;
     }
+    .react_native_page .services_hero_sec .banner_block {
+        padding-top: 110px;
+    }
+    .react_native_page .services_hero_sec .banner_inner_conte h3 {
+        font-size: 38px;
+    }
 }
 @media (max-width: 367px){
     .services_hero_sec .banner_inner_conte h3 {
@@ -171,5 +201,16 @@
     }
     .services_hero_sec .banner_inner_conte h4 {
         font-size: 28px;
+    }
+
+    .react_native_page .services_hero_sec .banner_inner_conte h3 {
+        font-size: 36px;
+    }
+    .react_native_page .services_hero_sec .banner_inner_conte h4 {
+        margin-top: 8px;
+        font-size: 27px;
+    }
+    .react_native_page .services_hero_sec .banner_btn a {
+        margin-top: 15px;
     }
 }

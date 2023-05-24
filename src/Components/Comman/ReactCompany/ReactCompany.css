@@ -1,0 +1,186 @@
+
+
+
+.react_netive_wrapper{
+    padding-top: 90px;
+}
+
+.react_netive_title h3{
+    color: rgba(0,0,0,1);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+}
+.react_netive_title h3::after{
+    background: -webkit-linear-gradient(45deg,#0085c3,#3de2f4);
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 27%;
+}
+
+.react_netive_sec{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 -24px;
+}
+.react_netive_block{
+    width: 45%;
+    padding: 0 24px;
+}
+.react_netive_conte {
+    width: 55%;
+    padding: 0 20px;
+}
+
+.react_netive_heading {
+    border-radius: 10px;
+    background-color: rgba(242,242,247, 1);
+    min-height: 580px;
+    padding: 30px 25px;
+    position: sticky;
+    top: 0;
+}
+.react_netive_heading h3{
+    color: rgba(0,0,0,1);
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1.25px;
+    line-height: 1.5;
+}
+.react_netive_heading p{
+    color: rgba(0,0,0,1);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    margin-top: 23px;
+    line-height: 2;
+}
+.react_native_item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid rgba(209,209,214, 1);
+    padding: 10px 45px 55px 15px;
+}
+.react_netive_inner_conte ul li + li{
+    margin-top: 30px;
+}
+.react_native_item h2{
+    -webkit-text-stroke: 1px rgba(0, 133, 195, 1);
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    width: 5%;
+}
+.react_native_item>div{
+    margin-left: 25px;
+    width: 95%;
+}
+.react_native_item h4{
+    color: rgba(0,0,0,1);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.react_native_item span{
+    display: inline-block;
+    line-height: 2;
+    color: rgba(0,0,0,1);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    margin-top: 12px;
+}
+
+@media (max-width:1199px){
+    .react_netive_heading {
+        min-height: 500px;
+    }
+    .react_native_item {
+        padding: 10px 10px 55px 15px;
+    }
+}
+
+@media (max-width:991px){
+    .react_netive_wrapper {
+        padding-top: 50px;
+    }
+    .react_netive_title h3 {
+        font-size: 32px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    .react_netive_sec{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin: -15px;
+    }
+    .react_netive_block, .react_netive_conte{
+        width: 100%;
+        padding: 15px;
+    }
+    .react_netive_heading{
+        min-height: 100%;
+    }
+    .react_native_item {
+        padding: 10px 10px 25px 15px;
+    }
+}
+
+@media (max-width:767px){
+    .react_netive_wrapper {
+        padding-top: 30px;
+    }
+    .react_netive_title h3 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    .react_netive_heading {
+        min-height: 100%;
+        padding: 15px;
+    }
+    .react_netive_heading h3 {
+        font-size: 23px;
+    }
+    .react_netive_heading p {
+        margin-top: 13px;
+    }
+    .react_native_item h2 {
+        font-size: 40px;
+    }
+    .react_native_item h4 {
+        font-size: 26px;
+    }
+}
+@media (max-width:575px){
+    .react_netive_wrapper {
+        padding-top: 10px;
+    }
+    .react_netive_title h3 {
+        font-size: 24px;
+    }
+    .react_netive_heading h3 {
+        font-size: 22px;
+    }
+    .react_native_item {
+        padding: 0 0 15px 0;
+    }
+    .react_native_item h4 {
+        font-size: 22px;
+    }
+}
