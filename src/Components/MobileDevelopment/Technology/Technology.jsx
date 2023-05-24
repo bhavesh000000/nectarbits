@@ -8,15 +8,15 @@ export default function Technology() {
     const [Technology, SetTechnology] = useState("Mobile Technologies");
 
   return (
-    <div class="technology_wrapper">
-        <div class="container">
-            <div class="technology_wrap">
-                <div class="technology_block">
-                    <div class="technology_title">
+    <div className="technology_wrapper">
+        <div className="container">
+            <div className="technology_wrap">
+                <div className="technology_block">
+                    <div className="technology_title">
                         <h2>Technology Stack</h2>
                     </div>
-                    <div class="technology_sec">
-                        <div class="technology_tabs">
+                    <div className="technology_sec">
+                        <div className="technology_tabs">
 
                         <ul className="nav nav-tabs">
                             {
@@ -26,7 +26,7 @@ export default function Technology() {
                             }
                         </ul>
                         </div>
-                        <div class="technology_tab_conte">
+                        <div className="technology_tab_conte">
                             
 
                             {

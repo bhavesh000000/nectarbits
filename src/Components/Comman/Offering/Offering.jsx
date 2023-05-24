@@ -8,25 +8,25 @@ import offering_img3 from '../../../Assets/Images/Services/offering_img3.webp';
 
 export default function Offering() {
   return (
-    <div class="offering_wrapper">
-        <div class="container">
-            <div class="offering_wrap">
-                <div class="offering_title">
+    <div className="offering_wrapper">
+        <div className="container">
+            <div className="offering_wrap">
+                <div className="offering_title">
                     <h2>
                         Offering Flexible Pricing <br />
                         Hiring Models with onsite consulting
                     </h2>
                 </div>
-               <div class="offering_block">
+               <div className="offering_block">
                    <ul> 
                         <li>
-                            <div class="offering_sec">
-                                <div class="offering_img">
+                            <div className="offering_sec">
+                                <div className="offering_img">
                                     <img src={offering_img1} alt="" />
                                 </div>
                                 <h3>Time and Material based model</h3>
                                 <p>Pay As Per The Time Spent And Resources Involved In Your Project, Which Is An Ideal Choice For Agile Development And Long-Term Projects.</p>
-                                <div class="offering_btn">
+                                <div className="offering_btn">
                                     <a href="#0">
                                         Learn More
                                         <span>
@@ -51,13 +51,13 @@ export default function Offering() {
                             </div>
                         </li>
                         <li>
-                            <div class="offering_sec">
-                                <div class="offering_img">
+                            <div className="offering_sec">
+                                <div className="offering_img">
                                     <img src={offering_img2} alt="" />
                                 </div>
                                 <h3>Fixed-Price model</h3>
                                 <p>Know The Price Of The Project Before It’s Built And Then Make Payments After The Predetermined Milestones Are Achieved. It’s Preferred By Small Projects With Ultra-Specific Scope</p>
-                                <div class="offering_btn">
+                                <div className="offering_btn">
                                     <a href="#0">
                                         Learn More
                                         <span>
@@ -82,13 +82,13 @@ export default function Offering() {
                             </div>
                         </li>
                         <li>
-                            <div class="offering_sec">
-                                <div class="offering_img">
+                            <div className="offering_sec">
+                                <div className="offering_img">
                                     <img src={offering_img3} alt="" />
                                 </div>
                                 <h3>Hire Dedicated Team</h3>
                                 <p>Whether Looking To Extend Your Team Or Need A Team To Develop The Website From Scratch, Our Expert PHP Developers Will Work As Your Dedicated Team.</p>
-                                <div class="offering_btn">
+                                <div className="offering_btn">
                                     <a href="#0">
                                         Learn More
                                         <span>

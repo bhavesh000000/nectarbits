@@ -20,14 +20,14 @@ export default function Workforce() {
                                 <div className='workforce_sec'>
                                     <div className='workforce_box'>
                                        <div className='workforce_icon'>
-                                            <img src={workforce?.ap_icon} />
+                                            <img src={workforce?.ap_icon} alt='icon' />
                                        </div>
                                        <h3>{workforce?.title}</h3>
                                        <p>{workforce?.conte}</p>
                                        <div className='workforce_box_item'>
                                             {
                                                 workforce?.item?.map( (item) => (
-                                                    <p> <span><img src={item?.icon}/></span> {item?.title} </p>
+                                                    <p> <span><img src={item?.icon} alt='icon'/></span> {item?.title} </p>
                                                 ) )
                                             }
                                        </div>

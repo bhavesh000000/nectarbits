@@ -24,21 +24,21 @@ export default function Solutions() {
     const [Solution, SetSolution] = useState("Taxi App");
 
   return (
-    <div class="solutions_wrapper">
-        <div class="solutions_wrap">
-            <div class="container">
-                <div class="solutions_block">
-                    <div class="solutions_title">
+    <div className="solutions_wrapper">
+        <div className="solutions_wrap">
+            <div className="container">
+                <div className="solutions_block">
+                    <div className="solutions_title">
                         <h2>Solutions We Focus On</h2>
                         <p>The Technical Mastery Of Mobile App Pros Enables Them Engineering Feature-Rich And User-Centric 
                             Mobile Apps Integrating Advanced Technologies That Serve Your 
                             Emerging Business Needs. Our Strength Lies In The Following Technologies Integration:</p>
                     </div>
-                    <div class="solutions_sec">
-                        <div class="solutions_tab_block">
+                    <div className="solutions_sec">
+                        <div className="solutions_tab_block">
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="taxi">
-                                    <div class="solutions_tabs">
-                                        <div class="solutions_item">
+                                    <div className="solutions_tabs">
+                                        <div className="solutions_item">
 
                                         <ul className="nav nav-tabs">
                                             {
@@ -110,31 +110,31 @@ export default function Solutions() {
                                                 <div>
                                                    
                                                         <div>
-                                                            <div class="taxi_app_sec">
+                                                            <div className="taxi_app_sec">
                                                                 <h3>Taxi App Development</h3>
                                                                 <p>Launch Your Own Taxi Booking Application, Called Uber, Ola, Lyft. <br /> Our 
                                                                     Taxi App Solution Allows Online Payment Feature, <br /> Geolocation Tracking , Stable Working Applications With Smooth <br /> UX.</p>
-                                                                <div class="taxi_app_btn">
+                                                                <div className="taxi_app_btn">
                                                                     <a href="#0">Learn More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div>
-                                                             <div class="taxi_app_sec">
+                                                             <div className="taxi_app_sec">
                                                                 <h3>Taxi App Development</h3>
                                                                 <p>Launch Your Own Taxi Booking Application, Called Uber, Ola, Lyft. <br /> Our 
                                                                     Taxi App Solution Allows Online Payment Feature, <br /> Geolocation Tracking , Stable Working Applications With Smooth <br /> UX.</p>
-                                                                <div class="taxi_app_btn">
+                                                                <div className="taxi_app_btn">
                                                                     <a href="#0">Learn More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div>
-                                                            <div class="taxi_app_sec">
+                                                            <div className="taxi_app_sec">
                                                                 <h3>Taxi App Development</h3>
                                                                 <p>Launch Your Own Taxi Booking Application, Called Uber, Ola, Lyft. <br /> Our 
                                                                     Taxi App Solution Allows Online Payment Feature, <br /> Geolocation Tracking , Stable Working Applications With Smooth <br /> UX.</p>
-                                                                <div class="taxi_app_btn">
+                                                                <div className="taxi_app_btn">
                                                                     <a href="#0">Learn More</a>
                                                                 </div>
                                                             </div>
@@ -142,81 +142,81 @@ export default function Solutions() {
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="commerce">
-                                                <div class="taxi_app_sec">
+                                                <div className="taxi_app_sec">
                                                     <h3>Taxi App Development</h3>
                                                     <p>Launch Your Own Taxi Booking Application, Called Uber, Ola, Lyft. <br /> Our 
                                                         Taxi App Solution Allows Online Payment Feature, <br /> Geolocation Tracking , Stable Working Applications With Smooth <br /> UX.</p>
-                                                    <div class="taxi_app_btn">
+                                                    <div className="taxi_app_btn">
                                                         <a href="#0">Learn More</a>
                                                     </div>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="demand">
-                                                <div class="taxi_app_sec">
+                                                <div className="taxi_app_sec">
                                                     <h3>Taxi App Development</h3>
                                                     <p>Launch Your Own Taxi Booking Application, Called Uber, Ola, Lyft. <br /> Our 
                                                         Taxi App Solution Allows Online Payment Feature, <br /> Geolocation Tracking , Stable Working Applications With Smooth <br /> UX.</p>
-                                                    <div class="taxi_app_btn">
+                                                    <div className="taxi_app_btn">
                                                         <a href="#0">Learn More</a>
                                                     </div>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="app">
-                                                <div class="taxi_app_sec">
+                                                <div className="taxi_app_sec">
                                                     <h3>Taxi App Development</h3>
                                                     <p>Launch Your Own Taxi Booking Application, Called Uber, Ola, Lyft. <br /> Our 
                                                         Taxi App Solution Allows Online Payment Feature, <br /> Geolocation Tracking , Stable Working Applications With Smooth <br /> UX.</p>
-                                                    <div class="taxi_app_btn">
+                                                    <div className="taxi_app_btn">
                                                         <a href="#0">Learn More</a>
                                                     </div>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="application">
-                                                <div class="taxi_app_sec">
+                                                <div className="taxi_app_sec">
                                                     <h3>Taxi App Development</h3>
                                                     <p>Launch Your Own Taxi Booking Application, Called Uber, Ola, Lyft. <br /> Our 
                                                         Taxi App Solution Allows Online Payment Feature, <br /> Geolocation Tracking , Stable Working Applications With Smooth <br /> UX.</p>
-                                                    <div class="taxi_app_btn">
+                                                    <div className="taxi_app_btn">
                                                         <a href="#0">Learn More</a>
                                                     </div>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="wearable">
-                                                <div class="taxi_app_sec">
+                                                <div className="taxi_app_sec">
                                                     <h3>Taxi App Development</h3>
                                                     <p>Launch Your Own Taxi Booking Application, Called Uber, Ola, Lyft. <br /> Our 
                                                         Taxi App Solution Allows Online Payment Feature, <br /> Geolocation Tracking , Stable Working Applications With Smooth <br /> UX.</p>
-                                                    <div class="taxi_app_btn">
+                                                    <div className="taxi_app_btn">
                                                         <a href="#0">Learn More</a>
                                                     </div>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="tracking">
-                                                <div class="taxi_app_sec">
+                                                <div className="taxi_app_sec">
                                                     <h3>Taxi App Development</h3>
                                                     <p>Launch Your Own Taxi Booking Application, Called Uber, Ola, Lyft. <br /> Our 
                                                         Taxi App Solution Allows Online Payment Feature, <br /> Geolocation Tracking , Stable Working Applications With Smooth <br /> UX.</p>
-                                                    <div class="taxi_app_btn">
+                                                    <div className="taxi_app_btn">
                                                         <a href="#0">Learn More</a>
                                                     </div>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="sensor">
-                                                 <div class="taxi_app_sec">
+                                                 <div className="taxi_app_sec">
                                                     <h3>Taxi App Development</h3>
                                                     <p>Launch Your Own Taxi Booking Application, Called Uber, Ola, Lyft. <br /> Our 
                                                         Taxi App Solution Allows Online Payment Feature, <br /> Geolocation Tracking , Stable Working Applications With Smooth <br /> UX.</p>
-                                                    <div class="taxi_app_btn">
+                                                    <div className="taxi_app_btn">
                                                         <a href="#0">Learn More</a>
                                                     </div>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="biometric">
-                                                <div class="taxi_app_sec">
+                                                <div className="taxi_app_sec">
                                                     <h3>Taxi App Development</h3>
                                                     <p>Launch Your Own Taxi Booking Application, Called Uber, Ola, Lyft. <br /> Our 
                                                         Taxi App Solution Allows Online Payment Feature, <br /> Geolocation Tracking , Stable Working Applications With Smooth <br /> UX.</p>
-                                                    <div class="taxi_app_btn">
+                                                    <div className="taxi_app_btn">
                                                         <a href="#0">Learn More</a>
                                                     </div>
                                                 </div>

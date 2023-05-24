@@ -10,20 +10,20 @@ export default function OurTechnical({data}) {
             {
                 <>
                 {console.log('sdsvdsvdsvsdvsvsdvsv', data?.conte)}
-                    <div class="our_technical_title">
-                        <div class="our_technical_title_block">
-                            <div class="our_technical_title_conte">
+                    <div className="our_technical_title">
+                        <div className="our_technical_title_block">
+                            <div className="our_technical_title_conte">
                                 <h2>{data?.title}</h2>
                                 <p>{data?.subTtiel}</p>
                             </div>
                         </div>
-                        <div class="our_technical_title_img">
-                            <div class="our_technical_title_img_block">
+                        <div className="our_technical_title_img">
+                            <div className="our_technical_title_img_block">
                                 <img src={data?.images} alt="" />
                             </div>
                         </div>
                     </div>
-                    <div class="our_technical_block">
+                    <div className="our_technical_block">
                         <ul> 
                             { data?.conte?.map((item, index) => (
                                 <li key={index}>

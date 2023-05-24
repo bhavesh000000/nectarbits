@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 .proficient_wrapper {
     background: #000;
@@ -24,6 +31,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    background-image: -o-linear-gradient(333.435deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
     background-image: linear-gradient(116.56505117707799deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
 }
 .proficient_title h2{
@@ -45,6 +53,8 @@
     margin-bottom: 53px;
 }
 .proficient_sec{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .proficient_conte{
@@ -56,7 +66,9 @@
     content: '';
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     right: 0;
     width: 2px;
     height: 75%;
@@ -70,10 +82,15 @@
     padding: 25px;
 }
 .proficient_section ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: -25px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .proficient_section ul li{
     padding: 25px;
@@ -81,6 +98,8 @@
 }
 .proficient_inner_box{
     border-radius: 15px;
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(225, 0, 255, 1)), to(rgba(127, 0, 255, 1)));
+    background-image: -o-linear-gradient(right, rgba(225, 0, 255, 1) 0%, rgba(127, 0, 255, 1) 100%);
     background-image: linear-gradient(270deg, rgba(225, 0, 255, 1) 0%, rgba(127, 0, 255, 1) 100%);
     padding: 2px;
 }
@@ -102,6 +121,8 @@
 .cm_proficient_box{
     width: 100%;
     border-radius: 15px;
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(225, 0, 255, 1)), to(rgba(127, 0, 255, 1)));
+    background-image: -o-linear-gradient(right, rgba(225, 0, 255, 1) 0%, rgba(127, 0, 255, 1) 100%);
     background-image: linear-gradient(270deg, rgba(225, 0, 255, 1) 0%, rgba(127, 0, 255, 1) 100%);
     min-height: 270px;
     padding: 30px 25px;
@@ -147,7 +168,8 @@
         margin-top: 10px;
     }
     .proficient_sec {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .proficient_conte{
         width: 100%;

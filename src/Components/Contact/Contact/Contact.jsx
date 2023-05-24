@@ -36,7 +36,7 @@ useEffect(() => {
 
   return (
     <div>
-        <div class="contact_us_wrapper">
+        <div className="contact_us_wrapper">
             <div className='container'>
                 <div className='contact_us_wrap'>
                     <div className='contact_us_title'>
@@ -46,26 +46,26 @@ useEffect(() => {
                     <div className='contact_us_block'>
                         <div id='script_show'></div>
                     </div>
-                      <div class="listening_inner_conte">
-                        <div class="assistance_contact">
-                              <div class="assistance_img">
+                      <div className="listening_inner_conte">
+                        <div className="assistance_contact">
+                              <div className="assistance_img">
                                   <img src={ic_email} alt="" />
                               </div>
-                              <div class="assistance_conte">
+                              <div className="assistance_conte">
                                   <h4>Email Us</h4>
                                   <a href="mailto:admin@nectarbits.ca">admin@nectarbits.ca</a>
                               </div>
                           </div>
-                          <div class="assistance_contact">
-                              <div class="assistance_img">
+                          <div className="assistance_contact">
+                              <div className="assistance_img">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
                               </div>
-                              <div class="assistance_conte">
+                              <div className="assistance_conte">
                                   <h4>Phone</h4>
                                   <a href="#0">+1 778-552-2466</a>
                               </div>
                           </div>
-                          <div class="assistance_block">
+                          <div className="assistance_block">
                               <h3>What you will get:</h3>
                               <p>On-call inquiry assistance</p>
                               <p>Project consulting by experts</p>

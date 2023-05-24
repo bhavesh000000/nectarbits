@@ -154,11 +154,11 @@ export const SolutionsCarData = {
                 },
                 {
                     tabTitle:'Website',
-                    images:app_img5
+                    images:app_img6
                 },
                 {
                     tabTitle:'Admin Panel',
-                    images:app_img5
+                    images:app_img6
                 }
             ],
         mainConte:{

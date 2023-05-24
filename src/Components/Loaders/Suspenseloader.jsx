@@ -5,7 +5,7 @@ function Suspenseloader() {
         <>
             <div className='loader_wrapper'>
 
-                <div class="loader">
+                <div className="loader">
                     <span></span>
                     <span></span>
                     <span></span>

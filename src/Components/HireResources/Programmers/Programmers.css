@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 
 
@@ -6,8 +13,12 @@
     padding-top: 180px;
 }
 .programmers_wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .programmers_title{
     width: 40%;
@@ -33,6 +44,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    background-image: -o-linear-gradient(333.435deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
     background-image: linear-gradient(116.56505117707799deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
 }
 .programmers_title_block h2{
@@ -50,11 +62,19 @@
 }
 
 .programmers_box{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .programmers_number_bg{
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 133, 195, 1)), to(rgba(61, 226, 244, 1)));
+    background: -o-linear-gradient(left, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
     background: linear-gradient(90deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
     padding: 2px;
     border-radius: 50%;
@@ -64,17 +84,27 @@
     background: rgba(255,255,255, 1);
     width: 65px;
     height: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .programmers_number h2{
     font-size: 25px;
     font-weight: 500;
     color: #000;
+    -webkit-transition: all 0.5 ease;
+    -o-transition: all 0.5 ease;
     transition: all 0.5 ease;
 }
 .programmers_box:hover .programmers_number{
+    background: -webkit-gradient(linear, right top, left top, from(rgba(0, 133, 195, 1)), to(rgba(61, 226, 244, 1)));
+    background: -o-linear-gradient(right, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
     background: linear-gradient(-90deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
 }
 .programmers_box:hover .programmers_number h2{
@@ -82,6 +112,8 @@
 }
 .programmers_conte_bg{
     border-radius: 15px;
+    background: -webkit-gradient(linear, right top, left top, from(rgba(0, 133, 195, 1)), to(rgba(61, 226, 244, 1)));
+    background: -o-linear-gradient(right, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
     background: linear-gradient(-90deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
     margin-left: 60px;
     padding: 2px;
@@ -105,6 +137,8 @@
     margin-top: 8px;
 }
 .programmers_box:hover .programmers_conte{
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 133, 195, 1)), to(rgba(61, 226, 244, 1)));
+    background: -o-linear-gradient(left, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
     background: linear-gradient(90deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
 }
 .programmers_box:hover .programmers_conte h3{
@@ -121,7 +155,9 @@
     position: absolute;
     left: 33px;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     height: 80%;
     width: 1px;
     border: 1px dashed #0085C3;
@@ -146,7 +182,8 @@
         padding-top: 80px;
     }
     .programmers_wrap{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         margin: -15px;
     }
     .programmers_title, .programmers_block {
@@ -196,7 +233,9 @@
         position: absolute;
         left: 24px;
         top: 50%;
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
         height: 80%;
         width: 1px;
         border: 1px dashed #0085C3;

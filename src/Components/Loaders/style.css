@@ -1,25 +1,54 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .loader_wrapper{
     height: 100vh;
     width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .loader {
     position: relative;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f07e6e), color-stop(#84cdfa), to(#5ad1cd));
+    background: -o-linear-gradient(#f07e6e, #84cdfa, #5ad1cd);
     background: linear-gradient(#f07e6e, #84cdfa, #5ad1cd);
-    animation: animate 1.2s linear infinite;
+    -webkit-animation: animate 1.2s linear infinite;
+            animation: animate 1.2s linear infinite;
+}
+
+@-webkit-keyframes animate {
+    0% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
 }
 
 @keyframes animate {
     0% {
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
     }
     100% {
-        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
     }
 }
 
@@ -28,23 +57,29 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f07e6e), color-stop(#84cdfa), to(#5ad1cd));
+    background: -o-linear-gradient(#f07e6e, #84cdfa, #5ad1cd);
     background: linear-gradient(#f07e6e, #84cdfa, #5ad1cd);
 }
 
 .loader span:nth-child(1) {
-    filter: blur(5px);
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
 }
 
 .loader span:nth-child(2) {
-    filter: blur(10px);
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
 }
 
 .loader span:nth-child(3) {
-    filter: blur(25px);
+    -webkit-filter: blur(25px);
+            filter: blur(25px);
 }
 
 .loader span:nth-child(4) {
-    filter: blur(50px);
+    -webkit-filter: blur(50px);
+            filter: blur(50px);
 }
 
 .loader:after {

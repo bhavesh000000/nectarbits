@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 
 
@@ -23,8 +30,12 @@
     position: relative;
 }
 .solution_hero_sec .banner_sec{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .solution_hero_sec .banner_conte {
     width: 45%;
@@ -48,7 +59,8 @@
 .solution_hero_sec .banner_btn a {
     display: inline-block;
     border: 1px solid rgba(255,255,255, 1);
-    box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+    -webkit-box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+            box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
    background: #000;
     color: rgba(255,255,255,1);
     font-size: 16px;
@@ -58,6 +70,8 @@
     border-radius: 28px;
     margin-top: 17px;
     text-decoration: none;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     background-size: 200% auto;
 }
@@ -108,8 +122,12 @@
         padding-bottom: 40px;
     }
     .solution_hero_sec .banner_sec{
-        flex-wrap: wrap;
-        flex-direction: column;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin: -15px;
     }
     .solution_hero_sec .banner_conte, .solution_hero_sec .banner_img {

@@ -1,13 +1,11 @@
 
 
-
-
-
 .flexibility_wrapper{
     padding-top: 180px;
 }
 .flexibility_wrap{
     border-radius: 10px;
+    background: -o-linear-gradient(333.435deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
     background: linear-gradient(116.56505117707799deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
     padding: 2px;
 }
@@ -17,9 +15,15 @@
     padding: 52px 46px;
 }
 .flexibility_sec{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .flexibility_conte{
     width: 70%;
@@ -42,13 +46,18 @@
     display: inline-block;
     border-radius: 28px;
     border: 1px solid rgba(255,255,255, 1);
-    box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+    -webkit-box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+            box-shadow: 5px 5px 12px rgba(61,225,243, 0.21987), -5px -5px 12px rgba(1,135,196, 0.079819);
+    background-image: -webkit-gradient(linear, left top, right top, from(#0085C3), color-stop(51%, #3DE2F4), to(#0085C3));
+    background-image: -o-linear-gradient(left, #0085C3 0%, #3DE2F4 51%, #0085C3 100%);
     background-image: linear-gradient(to right, #0085C3 0%, #3DE2F4 51%, #0085C3 100%);
     color: rgba(255,255,255,1);
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.8px;
     padding: 16px 45px;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     background-size: 200% auto;
 }
@@ -84,9 +93,15 @@
         padding-top: 50px;
     }
     .flexibility_sec{
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: flex-start;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
     }
     .flexibility_conte{
         width: 100%;

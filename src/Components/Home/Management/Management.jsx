@@ -20,7 +20,7 @@ export default function Management() {
                                 <div className='management_sec'>
                                     <div className='management_box'>
                                        <div className='management_icon'>
-                                            <img src={management?.ap_icon} />
+                                            <img src={management?.ap_icon} alt='icon' />
                                        </div>
                                        <h3>{management?.title}</h3>
                                        <p>{management?.conte}</p>

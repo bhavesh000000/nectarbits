@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 
 .business_solution_wrapper{
@@ -21,6 +28,7 @@
     left: 0;
     width: 2px;
     height: 100%;
+    background: -o-linear-gradient(333.435deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
     background: linear-gradient(116.56505117707799deg, rgba(0, 133, 195, 1) 0%, rgba(61, 226, 244, 1) 100%);
 }
 
@@ -31,9 +39,15 @@
     min-height: 475px;
 }
 .business_block{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .business_sec{
     width: 40%;
@@ -42,8 +56,12 @@
     width: 55%;
 }
 .business_conte ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 -7px;
 }
 .business_conte ul li{
@@ -85,10 +103,14 @@
 .business_link a span{
     display: inline-block;
     margin-left: 5px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 .business_link a:hover span{
-    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+        -ms-transform: translateX(5px);
+            transform: translateX(5px);
 }
 
 .business_tab_body .accordion_collapse{
@@ -99,6 +121,28 @@
     -webkit-animation: business_tab_open .6s ease-in-out;
     animation: business_tab_open .6s ease-in-out;
 }
+
+@-webkit-keyframes business_tab_open{
+    0% {
+        display: none;
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    
+    1% {
+        display: block;
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    30% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+  }
 
 @keyframes business_tab_open{
     0% {
@@ -180,9 +224,15 @@
         padding: 20px 20px 0 20px;
     }
     .business_block{
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: flex-start;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
         margin: -15px;
     }
     .business_sec, .business_tab_conte{

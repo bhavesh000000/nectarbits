@@ -7,24 +7,24 @@ export default function Libraries({data}) {
   return (
 
 
-    <div class="libraries_wrapper">
+    <div className="libraries_wrapper">
        {
-            <div class="libraries_wrap" style={{ backgroundImage: `url(${data?.bg_images})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
-            <div class="container">
-                <div class="libraries_block">
-                <div class="libraries_title">
+            <div className="libraries_wrap" style={{ backgroundImage: `url(${data?.bg_images})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+            <div className="container">
+                <div className="libraries_block">
+                <div className="libraries_title">
                     <h3>{data?.title}</h3>
                 </div>
-                <div class="libraries_img_block">
+                <div className="libraries_img_block">
                     <ul>
                     {data?.conteData?.map((libraryItem, index) => {
                         return (
                         <li key={index}>
-                            <a href="#0" class="libraries_img_sec" style={{ backgroundImage: `url(${libraryItem?.images})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
-                            <div class="libraries_img">
+                            <a href="#0" className="libraries_img_sec" style={{ backgroundImage: `url(${libraryItem?.images})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+                            <div className="libraries_img">
                                 <img src={libraryItem?.ap_icon} alt="" />
                             </div>
-                            <div class="libraries_conte">
+                            <div className="libraries_conte">
                                 <p>{libraryItem?.subTitle}</p>
                                 <span>{libraryItem?.innerTitle}</span>
                             </div>
@@ -34,7 +34,7 @@ export default function Libraries({data}) {
                     })}
                     </ul>
                 </div>
-                <div class="libraries_btn">
+                <div className="libraries_btn">
                     <a href="#0">{data?.link}</a>
                 </div>
                 </div>

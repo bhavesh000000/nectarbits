@@ -52,32 +52,32 @@ import ic_more from '../../../Assets/Images/Services/ic_more.webp';
 
 export default function CoreServices() {
   return (
-    <div class="core_services_wrapper">
-        <div class="core_services_wrap">
-            <div class="container">
-                <div class="core_services_title">
+    <div className="core_services_wrapper">
+        <div className="core_services_wrap">
+            <div className="container">
+                <div className="core_services_title">
                     <h3>Core Services</h3>
                     <p>We Are App Development Service Provider That Works With Users To Maximize Profits And Grow Business Quickly.</p>
                 </div>
-                <div class="mobile_development">
-                    <div class="cm_development_title">
+                <div className="mobile_development">
+                    <div className="cm_development_title">
                         <h2>Software Development</h2>
-                    <div class="mobile_development_block">
-                        <div class="mobile_development_sec">
-                            <div class="mobile_development_wrap">
-                                <div class="mobile_development_btn">
+                    <div className="mobile_development_block">
+                        <div className="mobile_development_sec">
+                            <div className="mobile_development_wrap">
+                                <div className="mobile_development_btn">
                                     <p>
                                         We Transform The Way Your Business Operates And Capitalize On Opportunities With Mobile Solutions That Perform Well On Both The IOS And Android Platforms.
                                     </p>
-                                    <div class="mobile_development_btn_block">
+                                    <div className="mobile_development_btn_block">
                                         <a href="#0">Explore</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="mobile_development_conte">
-                                <ul class="mobile_development_item"> 
+                            <div className="mobile_development_conte">
+                                <ul className="mobile_development_item"> 
                                      <li>
-                                         <a href="#0" class="core_services_sec">
+                                         <a href="#0" className="core_services_sec">
                                             <img src={equalizer} alt="" />
                                             <p>Custom Software  Development</p>
                                             <span>
@@ -86,7 +86,7 @@ export default function CoreServices() {
                                          </a>
                                      </li>
                                      <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={settings} alt="" />
                                            <p>Software Maintenance & Support</p>
                                            <span>
@@ -95,7 +95,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={transformation} alt="" />
                                            <p>Agile Transformation</p>
                                            <span>
@@ -104,7 +104,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={seo} alt="" />
                                            <p>Software Engineering</p>
                                            <span>
@@ -113,7 +113,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={architecture} alt="" />
                                            <p>Software Architecture</p>
                                            <span>
@@ -122,7 +122,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={programming} alt="" />
                                            <p>Software product Development</p>
                                            <span>
@@ -131,7 +131,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={ conversation} alt="" />
                                            <p>Software Consulting</p>
                                            <span>
@@ -140,7 +140,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={saas} alt="" />
                                            <p>SaaS Development</p>
                                            <span>
@@ -154,15 +154,15 @@ export default function CoreServices() {
                     </div>
                     </div>
                 </div>
-                <div class="web_development">
-                    <div class="cm_development_title cm_development_title_right">
+                <div className="web_development">
+                    <div className="cm_development_title cm_development_title_right">
                         <h2>Hire Dedicated <br /> Developers</h2>
                     </div>
-                    <div class="web_development_block">
-                        <div class="web_development_img">
-                            <ul class="mobile_development_item"> 
+                    <div className="web_development_block">
+                        <div className="web_development_img">
+                            <ul className="mobile_development_item"> 
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                         <img src={ic_react_native} alt="" />
                                         <p>React Native Deeveloper</p>
                                         <span>
@@ -171,7 +171,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                    <a href="#0" class="core_services_sec">
+                                    <a href="#0" className="core_services_sec">
                                         <img src={apple} alt="" />
                                         <p>Native App Developers</p>
                                         <span>
@@ -180,7 +180,7 @@ export default function CoreServices() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#0" class="core_services_sec">
+                                    <a href="#0" className="core_services_sec">
                                         <img src={ic_laravel} alt="" />
                                         <p>Laravel Developer</p>
                                         <span>
@@ -189,7 +189,7 @@ export default function CoreServices() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#0" class="core_services_sec">
+                                    <a href="#0" className="core_services_sec">
                                         <img src={nodejs} alt="" />
                                         <p>Node.Js Developer</p>
                                         <span>
@@ -198,7 +198,7 @@ export default function CoreServices() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#0" class="core_services_sec">
+                                    <a href="#0" className="core_services_sec">
                                         <img src={ ic_react_native} alt="" />
                                         <p>React.Js Developer</p>
                                         <span>
@@ -207,7 +207,7 @@ export default function CoreServices() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#0" class="core_services_sec">
+                                    <a href="#0" className="core_services_sec">
                                         <img src={ design} alt="" />
                                         <p>Web Designer</p>
                                         <span>
@@ -216,7 +216,7 @@ export default function CoreServices() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#0" class="core_services_sec">
+                                    <a href="#0" className="core_services_sec">
                                         <img src={  vector} alt="" />
                                         <p>UI Designer</p>
                                         <span>
@@ -225,7 +225,7 @@ export default function CoreServices() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#0" class="core_services_sec">
+                                    <a href="#0" className="core_services_sec">
                                         <img src={devops} alt="" />
                                         <p>DevOps Engineer</p>
                                         <span>
@@ -235,21 +235,21 @@ export default function CoreServices() {
                                 </li>
                             </ul>
                         </div>
-                        <div class="web_development_conte">
-                            <div class="mobile_development_conte">
-                                <div class="mobile_development_wrap">
-                                    <div class="mobile_development_btn">
+                        <div className="web_development_conte">
+                            <div className="mobile_development_conte">
+                                <div className="mobile_development_wrap">
+                                    <div className="mobile_development_btn">
                                         <p>
                                             The Team Engineers And Deploys The Scalable, Responsive, And Robust Web That Fosters Your Business Growth And Improves The Prominence In The Market.
                                         </p>
-                                        <div class="mobile_development_btn_block">
+                                        <div className="mobile_development_btn_block">
                                             <a href="#0">Explore</a>
                                         </div>
                                     </div>
                                 </div>
-                                <ul class="mobile_development_item"> 
+                                <ul className="mobile_development_item"> 
                                      <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={Bitmap} alt="" />
                                            <p>Power BI Developer</p>
                                            <span>
@@ -258,7 +258,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={megento} alt="" />
                                            <p>Megento Certified Developer</p>
                                            <span>
@@ -271,28 +271,28 @@ export default function CoreServices() {
                         </div>
                     </div>
                 </div>
-                <div class="ui_ux_development">
-                    <div class="mobile_development_block">
-                        <div class="cm_development_title">
+                <div className="ui_ux_development">
+                    <div className="mobile_development_block">
+                        <div className="cm_development_title">
                             <h2>Mobile App Development</h2>
                         </div>
-                        <div class="mobile_development_sec">
-                        <div class="mobile_development_block">
-                        <div class="mobile_development_sec">
-                            <div class="mobile_development_wrap">
-                                <div class="mobile_development_btn">
+                        <div className="mobile_development_sec">
+                        <div className="mobile_development_block">
+                        <div className="mobile_development_sec">
+                            <div className="mobile_development_wrap">
+                                <div className="mobile_development_btn">
                                     <p>
                                         We Transform The Way Your Business Operates And Capitalize On Opportunities With Mobile Solutions That Perform Well On Both The IOS And Android Platforms.
                                     </p>
-                                    <div class="mobile_development_btn_block">
+                                    <div className="mobile_development_btn_block">
                                         <a href="#0">Explore</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="mobile_development_conte">
-                                <ul class="mobile_development_item"> 
+                            <div className="mobile_development_conte">
+                                <ul className="mobile_development_item"> 
                                      <li>
-                                         <a href="#0" class="core_services_sec">
+                                         <a href="#0" className="core_services_sec">
                                             <img src={ic_ios} alt="" />
                                             <p>iOS App  Development</p>
                                             <span>
@@ -301,7 +301,7 @@ export default function CoreServices() {
                                          </a>
                                      </li>
                                      <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={ic_react_native} alt="" />
                                            <p>React Native Development</p>
                                            <span>
@@ -310,7 +310,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={ic_flutter} alt="" />
                                            <p>Flutter Development</p>
                                            <span>
@@ -319,7 +319,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={ic_swift} alt="" />
                                            <p>Swift App Development</p>
                                            <span>
@@ -328,7 +328,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={platform} alt="" />
                                            <p>Cross Plateform App Development</p>
                                            <span>
@@ -337,7 +337,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={enterprise} alt="" />
                                            <p>Hybrid Apps Development</p>
                                            <span>
@@ -346,7 +346,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={ hybrid} alt="" />
                                            <p>Hybrid Apps Development</p>
                                            <span>
@@ -355,7 +355,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={custom_app} alt="" />
                                            <p>Custom Mobile Application</p>
                                            <span>
@@ -370,16 +370,16 @@ export default function CoreServices() {
                         </div>
                     </div>
                 </div>
-                <div class="web_development">
-                    <div class="cm_development_title cm_development_title_right">
+                <div className="web_development">
+                    <div className="cm_development_title cm_development_title_right">
                         <h2>Web Development</h2>
                     </div>
-                    <div class="web_development_block">
-                        <div class="web_development_img">
-                            <ul class="mobile_development_item"> 
+                    <div className="web_development_block">
+                        <div className="web_development_img">
+                            <ul className="mobile_development_item"> 
                                     
                                 <li>
-                                    <a href="#0" class="core_services_sec">
+                                    <a href="#0" className="core_services_sec">
                                         <img src={ic_php} alt="" />
                                         <p>PHP  Development</p>
                                         <span>
@@ -388,7 +388,7 @@ export default function CoreServices() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#0" class="core_services_sec">
+                                    <a href="#0" className="core_services_sec">
                                         <img src={ic_laravel} alt="" />
                                         <p>Laravel Development</p>
                                         <span>
@@ -397,7 +397,7 @@ export default function CoreServices() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#0" class="core_services_sec">
+                                    <a href="#0" className="core_services_sec">
                                         <img src={ic_laravel} alt="" />
                                         <p>Laravel Development</p>
                                         <span>
@@ -406,7 +406,7 @@ export default function CoreServices() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#0" class="core_services_sec">
+                                    <a href="#0" className="core_services_sec">
                                         <img src={ic_laravel} alt="" />
                                         <p>Laravel Development</p>
                                         <span>
@@ -416,14 +416,14 @@ export default function CoreServices() {
                                 </li>
                             </ul>
                         </div>
-                        <div class="web_development_conte">
-                            <div class="mobile_development_conte">
-                                <div class="mobile_development_wrap">
-                                    <div class="mobile_development_btn">
+                        <div className="web_development_conte">
+                            <div className="mobile_development_conte">
+                                <div className="mobile_development_wrap">
+                                    <div className="mobile_development_btn">
                                         <p>
                                             The Team Engineers And Deploys The Scalable, Responsive, And Robust Web That Fosters Your Business Growth And Improves The Prominence In The Market.
                                         </p>
-                                        <div class="mobile_development_btn_block">
+                                        <div className="mobile_development_btn_block">
                                             <a href="#0">Explore</a>
                                         </div>
                                     </div>
@@ -432,28 +432,28 @@ export default function CoreServices() {
                         </div>
                     </div>
                 </div>
-                <div class="ui_ux_development">
-                    <div class="mobile_development_block">
-                        <div class="cm_development_title">
+                <div className="ui_ux_development">
+                    <div className="mobile_development_block">
+                        <div className="cm_development_title">
                             <h2>UI/UX Development</h2>
                         </div>
-                        <div class="mobile_development_sec">
-                        <div class="mobile_development_block">
-                        <div class="mobile_development_sec">
-                            <div class="mobile_development_wrap">
-                                <div class="mobile_development_btn">
+                        <div className="mobile_development_sec">
+                        <div className="mobile_development_block">
+                        <div className="mobile_development_sec">
+                            <div className="mobile_development_wrap">
+                                <div className="mobile_development_btn">
                                      <p>
                                         The Designer Crew Craft Elegant, High-Quality And Responsive Designs That Deliver Groundbreaking UX Irrespective Of The Device Type And Size.
                                     </p>
-                                    <div class="mobile_development_btn_block">
+                                    <div className="mobile_development_btn_block">
                                         <a href="#0">Explore</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="mobile_development_conte">
-                                <ul class="mobile_development_item"> 
+                            <div className="mobile_development_conte">
+                                <ul className="mobile_development_item"> 
                                      <li>
-                                         <a href="#0" class="core_services_sec">
+                                         <a href="#0" className="core_services_sec">
                                             <img src={ux} alt="" />
                                             <p>UI/UX Designer</p>
                                             <span>
@@ -462,7 +462,7 @@ export default function CoreServices() {
                                          </a>
                                      </li>
                                      <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={experience} alt="" />
                                            <p>Mobile Design & Development</p>
                                            <span>
@@ -471,7 +471,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={web_design} alt="" />
                                            <p>Web Design & Development</p>
                                            <span>
@@ -480,7 +480,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={consulting} alt="" />
                                            <p>Ui and UX Consulting</p>
                                            <span>
@@ -489,7 +489,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={ testing} alt="" />
                                            <p>Ui and UX Consulting</p>
                                            <span>
@@ -498,7 +498,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={ software} alt="" />
                                            <p>UI Testing</p>
                                            <span>
@@ -507,7 +507,7 @@ export default function CoreServices() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#0" class="core_services_sec">
+                                        <a href="#0" className="core_services_sec">
                                            <img src={ interaction} alt="" />
                                            <p>Interaction Design</p>
                                            <span>

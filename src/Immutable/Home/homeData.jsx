@@ -50,7 +50,7 @@ export const productsData = [
             accData : {
                 id:1,
                 title:'Use Cases',
-                data: [{ name: "Salon Booking App", path:'/fulesolution' }, { name:"Car Wash App", path:'/solutions'}, { name:"Home Service App"}, {name:"Pharmacy Delivery App"}, {name:"Taxi Booking App"}, {name:'Laundry Booking App'}, {name:'Electric Vehicle Charging App'}]
+                data: [{ name: "Solution", path:'/solutions' }, { name: "Salon Booking App", path:'/fulesolution' }, { name:"Car Wash App"}, { name:"Home Service App"}, {name:"Pharmacy Delivery App"}, {name:"Taxi Booking App"}, {name:'Laundry Booking App'}, {name:'Electric Vehicle Charging App'}]
             }
         }
     },
