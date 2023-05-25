@@ -31,7 +31,7 @@ export const LookingServicesData = [
     }
 ]
 
-
+// Mobile app delopment page
 var libraries_bg = require('../../Assets/Images/MobileAppDevelopment/libraries_bg.webp')
 
 var libraries_img1 = require('../../Assets/Images/MobileAppDevelopment/libraries_bg_img1.webp')
@@ -73,9 +73,50 @@ export const librariesData = {
                 }
             ],
     link: 'Enquire Now'
-
 }
 
+
+// Mobile app delopment page
+var libraries_bg = require('../../Assets/Images/ReactNetive/libraries_bg.webp')
+
+var libraries_img1 = require('../../Assets/Images/ReactNetive/libraries_img1.webp')
+var libraries_img2 = require('../../Assets/Images/ReactNetive/libraries_img2.webp')
+var libraries_img3 = require('../../Assets/Images/ReactNetive/libraries_img3.webp')
+var libraries_img4 = require('../../Assets/Images/ReactNetive/libraries_img4.webp')
+var ic_react_native = require('../../Assets/Images/ReactNetive/ic_react_native.webp')
+
+
+export const ReactlibrariesData = {
+
+    bg_images: libraries_bg,
+    title: 'Open Source Libraries',
+    conteData: [{
+                    images: libraries_img1,
+                    ap_icon: ic_react_native,
+                    subTitle: 'Tabbar Interactions',
+                    innerTitle: 'React Native',
+                },
+                {
+                    images: libraries_img2,
+                    ap_icon: ic_react_native,
+                    subTitle: 'Speed Progress View',
+                    innerTitle: 'React Native',
+                },
+                {
+                    images: libraries_img3,
+                    ap_icon: ic_react_native,
+                    subTitle: 'Map Interaction Prototype',
+                    innerTitle: 'React Native',
+                },
+                {
+                    images: libraries_img4,
+                    ap_icon: ic_react_native,
+                    subTitle: 'Top Navbar',
+                    innerTitle: 'React Native',
+                }
+            ],
+    link: 'Enquire Now'
+}
 
 
 // React Native Page 

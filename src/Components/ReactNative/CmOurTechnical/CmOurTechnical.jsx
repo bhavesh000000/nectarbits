@@ -1,0 +1,46 @@
+
+
+import React from 'react'
+import './CmOurTechnical.css'
+
+export default function CmOurTechnical({data}) {
+  return (
+    <div className='cm_our_tachnical'>
+        <div className='our_technical_wrapper'>
+            <div className='container'>
+                <div className='our_technical_wrap'>
+                {
+                    <>
+                    {/* {console.log('sdsvdsvdsvsdvsvsdvsv', data?.conte)} */}
+                        <div className="our_technical_title">
+                            <div className="our_technical_title_block">
+                                <div className="our_technical_title_conte">
+                                    <h2>{data?.title}</h2>
+                                    <p>{data?.subTtiel}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="our_technical_block">
+                            <ul> 
+                                { data?.conte?.map((item, index) => (
+                                    <li key={index}>
+                                        <div className="our_technical_sec">
+                                            <div className="our_technical_img">
+                                                <img src={item?.img} alt="" />
+                                            </div>
+                                            <div className="our_technical_conte">
+                                                <h3>{item?.name}</h3>
+                                            </div>
+                                        </div>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </>
+                }
+                </div>
+            </div>
+        </div>
+    </div>
+  )
+}

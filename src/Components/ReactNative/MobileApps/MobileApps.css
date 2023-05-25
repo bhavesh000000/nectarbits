@@ -1,0 +1,233 @@
+
+.mobile_apps_wrapper{
+    padding-top: 180px;
+}
+.mobile_apps_wrap{
+    background-color: rgba(0,0,0, 1);
+    padding: 70px 0 60px 0;
+}
+.mobile_apps_title h3{
+    color: rgba(255,255,255,1);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.mobile_apps_sec{
+    background-image: url(../../../Assets/Images/ReactNetive/mobile_app_img.webp);
+    padding: 30px 60px 90px 60px;
+    margin-top: 44px;
+}
+.mobile_apps_sec h2 {
+    color: rgba(255,255,255,1);
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    max-width: 620px;
+    line-height: 1.6;
+}
+.mobile_apps_btn a{
+    display: inline-block;
+    color: rgba(255,255,255,1);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    border-radius: 28px;
+    border: 1px solid rgba(255,255,255, 1);
+    padding: 11px 35px;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+.mobile_apps_btn a:hover{
+    background: #000;
+}
+
+.mobile_apps_slider_bg{
+    background:  rgba(255,255,255, 1);
+    padding: 2px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.mobile_apps_slider_sec{
+    border-radius: 10px;
+    background-color: rgba(0,0,0, 1);
+    padding: 25px 30px;
+    min-height: 225px;
+}
+.mobile_apps_slider_sec h3{
+    color: rgba(255,255,255,1);
+    font-size: 24px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.mobile_apps_slider_sec p{
+    color: rgba(255,255,255,1);
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 22px;
+    line-height: 1.6;
+}
+
+.mobile_apps_slider{
+    max-width: 972px;
+    margin: -50px auto 0;
+}
+.mobile_apps_slider .slick-slider{
+    margin: 0 -10px;
+}
+.mobile_apps_slider .slick-slide{
+    padding: 0 10px;
+}
+.mobile_apps_slider .slick-slide.slick-active.slick-current .mobile_apps_slider_bg{
+    background: -webkit-linear-gradient(-45deg,#0085c3,#3de2f4);
+    transform: translateY(-10px);
+}
+.mobile_apps_slider .slick-track{
+    margin-top: 10px;
+}
+.mobile_apps_slider .slick-slide.slick-active.slick-current .mobile_apps_slider_sec h3{
+    background: -webkit-linear-gradient(45deg,#0085C3, #3DE2F4, #3DE2F4, #3DE2F4, #3DE2F4, #3DE2F4, #3DE2F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mobile_apps_slider .slick-prev:before, .mobile_apps_slider .slick-next:before{
+    display: none;
+}
+.mobile_apps_slider .slick-next{
+    background-image: url(../../../Assets/Images/ReactNetive/ic_arrow_right.webp) !important;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: -75px;
+}
+
+.mobile_apps_slider .slick-prev{
+    background-image: url(../../../Assets/Images/ReactNetive/ic_arrow_left.webp) !important;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: -75px;
+}
+
+.mobile_apps_slider  .slick-prev:hover, .slick-prev:focus{
+    background: url(../../../Assets/Images/ReactNetive/ic_arrow_left.webp) !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+} 
+
+.mobile_apps_slider  .slick-next:hover, .slick-next:focus{
+    background: url(../../../Assets/Images/ReactNetive/ic_arrow_right.webp) !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+@media (max-width: 1199px){
+    .mobile_apps_wrapper {
+        padding-top: 110px;
+    }
+    .mobile_apps_wrap {
+        padding: 50px 0 40px 0;
+    }
+    .mobile_apps_title h3 {
+        font-size: 35px;
+    }
+    .mobile_apps_sec {
+        margin-top: 34px;
+    }
+    .mobile_apps_sec h2 {
+        font-size: 40px;
+    }
+    .mobile_apps_slider {
+        max-width: 782px;
+    }
+    .mobile_apps_slider .slick-next {
+        right: -65px;
+    }
+    .mobile_apps_slider .slick-prev{
+        left: -65px;
+    }
+    .mobile_apps_slider_sec {
+        padding: 25px 15px;
+    }
+}
+
+@media (max-width: 991px){
+    .mobile_apps_wrapper {
+        padding-top: 80px;
+    }
+    .mobile_apps_title h3 {
+        font-size: 30px;
+    }
+    .mobile_apps_sec h2 {
+        font-size: 35px;
+    }
+    .mobile_apps_slider {
+        max-width: 565px;
+    }
+    .mobile_apps_slider .slick-next {
+        width: 40px;
+        height: 40px;
+        right: -55px;
+    }
+    .mobile_apps_slider .slick-prev{
+        width: 40px;
+        height: 40px;
+        left: -55px;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .mobile_apps_wrapper {
+        padding-top: 50px;
+    }
+    .mobile_apps_wrap {
+        padding: 35px 0 30px 0;
+    }
+    .mobile_apps_sec h2 {
+        font-size: 29px;
+    }
+    .mobile_apps_slider {
+        max-width: 366px;
+    }
+}
+
+@media (max-width: 575px){
+    .mobile_apps_wrapper {
+        padding-top: 40px;
+    }
+    .mobile_apps_title h3 {
+        font-size: 26px;
+    }
+    .mobile_apps_sec{
+        padding: 20px 20px 60px 20px;
+    }
+    .mobile_apps_slider {
+        max-width: 250px;
+    }
+    .mobile_apps_slider .slick-next {
+        width: 35px;
+        height: 35px;
+        right: -30px;
+    }
+    .mobile_apps_slider .slick-prev{
+        width: 35px;
+        height: 35px;
+        left: -30px;
+    }
+    .mobile_apps_slider_sec h3 {
+        font-size: 22px;
+    }
+    .mobile_apps_sec h2 {
+        font-size: 26px;
+    }
+}
+@media (max-width: 367px){
+    .mobile_apps_title h3 {
+        font-size: 24px;
+    }
+    .mobile_apps_slider {
+        max-width: 204px;
+    }
+}
