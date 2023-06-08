@@ -1,4 +1,4 @@
-import React, { lazy } from 'react';
+import React, { lazy, useEffect } from 'react';
 
 const Banner = lazy(() => import('../../Components/Home/Hero/Banner'));
 const Comprehensive = lazy(() => import('../../Components/Home/Comprehensive/Comprehensive'));
@@ -23,6 +23,17 @@ const Inspiration = lazy(() => import('../../Components/Comman/Inspiration/Inspi
 const Listening = lazy(() => import('../../Components/Comman/Listening/Listening'));
 
 export default function Home() {
+
+  useEffect(() => {
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    };
+
+    scrollToTop();
+  }, []);
   return (
     <div className='home_page'>
       <Banner />

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './Libraries.css'
+import { NavLink } from 'react-router-dom';
 
 export default function Libraries({data}) {
     console.log(data?.conteData)
@@ -35,7 +36,7 @@ export default function Libraries({data}) {
                     </ul>
                 </div>
                 <div className="libraries_btn">
-                    <a href="#0">{data?.link}</a>
+                    <NavLink to="/contactus">{data?.link}</NavLink>
                 </div>
                 </div>
             </div>

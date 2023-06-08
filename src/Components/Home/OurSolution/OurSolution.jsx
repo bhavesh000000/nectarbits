@@ -12,6 +12,7 @@ import illustration_car_wash from '../../../Assets/Images/illustration_car_wash.
 import illustration_food_delivery from '../../../Assets/Images/illustration_food_delivery.webp';
 import illustration_fuel_delivery from '../../../Assets/Images/illustration_fuel_delivery.webp';
 import illustration_taxi_solution from '../../../Assets/Images/illustration_taxi_solution.webp';
+import { NavLink } from 'react-router-dom';
 
 
 export default function OurSolution() {
@@ -42,7 +43,7 @@ export default function OurSolution() {
                                 <p>Single Vendor</p>
                                 <span>Get the best solution in the industry for your E-commerce Business. Take your business to next level with our  next gen technology filled software. Book a meeting and get in touch with us. </span>
                                 <div className="services_btn">
-                                    <a href="#0">Enquire Now</a>
+                                    <NavLink to='/contactus'>Enquire Now</NavLink>
                                 </div>
                             </div>
                             <div className="services_img">
@@ -59,7 +60,7 @@ export default function OurSolution() {
                                 <p>Single Vendor</p>
                                 <span>Get the best solution in the industry for your E-commerce Business. Take your business to next level with our  next gen technology filled software. Book a meeting and get in touch with us. </span>
                                 <div className="services_btn">
-                                    <a href="#0">Enquire Now</a>
+                                    <NavLink to='/contactus'>Enquire Now</NavLink>
                                 </div>
                             </div>
                             <div className="services_img">
@@ -76,7 +77,7 @@ export default function OurSolution() {
                                 <p>Single Vendor</p>
                                 <span>Get the best solution in the industry for your E-commerce Business. Take your business to next level with our  next gen technology filled software. Book a meeting and get in touch with us. </span>
                                 <div className="services_btn">
-                                    <a href="#0">Enquire Now</a>
+                                    <NavLink to='/contactus'>Enquire Now</NavLink>
                                 </div>
                             </div>
                             <div className="services_img">
@@ -93,7 +94,7 @@ export default function OurSolution() {
                                 <p>Single Vendor</p>
                                 <span>Get the best solution in the industry for your E-commerce Business. Take your business to next level with our  next gen technology filled software. Book a meeting and get in touch with us. </span>
                                 <div className="services_btn">
-                                    <a href="#0">Enquire Now</a>
+                                    <NavLink to='/contactus'>Enquire Now</NavLink>
                                 </div>
                             </div>
                             <div className="services_img">
@@ -110,7 +111,7 @@ export default function OurSolution() {
                                 <p>Single Vendor</p>
                                 <span>Get the best solution in the industry for your E-commerce Business. Take your business to next level with our  next gen technology filled software. Book a meeting and get in touch with us. </span>
                                 <div className="services_btn">
-                                    <a href="#0">Enquire Now</a>
+                                    <NavLink to='/contactus'>Enquire Now</NavLink>
                                 </div>
                             </div>
                             <div className="services_img">

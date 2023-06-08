@@ -4,7 +4,6 @@ import Footer from "./Components/Comman/Footer/Footer";
 
 import { Routes, Route } from "react-router-dom";
 import Suspenseloader from "./Components/Loaders/Suspenseloader";
-
 const Home = lazy(() => import( "./pages/Home/Home"));
 const Services = lazy(() => import( "./pages/Services/software-development-services"));
 const ContactUs = lazy(() => import( "./pages/ContactUs/contact-us"));
@@ -13,6 +12,7 @@ const MobileDevelopment = lazy(() => import("./pages/MobileDevelopment/mobile-ap
 const ReactNative = lazy(() => import("./pages/ReactNative/ReactNative"));
 const HireSoftware = lazy(() => import("./pages/HireResources/hire-software-developers"));
 const Solutions = lazy(() => import("./pages/Solutions/software-development-solutions"));
+const Thankyou = lazy(() => import("./pages/Thankyou/Thankyou"));
 
 function App() {
   return (
@@ -33,6 +33,8 @@ function App() {
           <Route path="/reactnative" element={<ReactNative />} />
           <Route path="/hiresoftware" element={<HireSoftware />} />
           <Route path="/solutions" element={<Solutions />} />
+          <Route path="/thankyou" element={<Thankyou />} />
+          
           
       </Routes>
 

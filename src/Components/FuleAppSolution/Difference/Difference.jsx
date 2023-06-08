@@ -5,6 +5,7 @@ import './Difference.css'
 import difference_img from '../../../Assets/Images/Slution/difference_img.webp'
 import Tab from 'react-bootstrap/Tab';
 import { DifferenceData } from '../../../Immutable/FuleAppSolution/FuleSolutionData';
+import { NavLink } from 'react-router-dom';
 
 
 export default function Difference() {
@@ -51,7 +52,7 @@ export default function Difference() {
                                                             <h3>{Difference?.data?.accData?.title}</h3>
                                                             <p>{Difference?.data?.accData?.conte}</p>
                                                             <div className='difference_tab_btn'>
-                                                                <a href='#0'>{Difference?.data?.accData?.btn}</a>
+                                                                <NavLink to='/contactus'>{Difference?.data?.accData?.btn}</NavLink>
                                                             </div>
                                                         </div>
                                                     </div>)

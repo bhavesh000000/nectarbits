@@ -6,6 +6,7 @@ import ourwork_img1 from '../../../Assets/Images/ourwork_img1.webp';
 import ourwork_img2 from '../../../Assets/Images/ourwork_img2.webp';
 import ourwork_img3 from '../../../Assets/Images/ourwork_img3.webp';
 import ourwork_img4 from '../../../Assets/Images/ourwork_img4.webp';
+import { NavLink } from 'react-router-dom';
 
 export default function OurWork() {
   return (
@@ -20,7 +21,7 @@ export default function OurWork() {
                         These values are responsibility, punctuality, honesty, proactivity, and transparency.</p>
                     </div>
                     <div className='ourwork_title_btn'>
-                        <a href='#0'>Contact Us</a>
+                        <NavLink to="/contactus">Contact Us</NavLink>
                     </div>
                 </div>
                 <div className='ourwork_conte'>

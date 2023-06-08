@@ -3,6 +3,7 @@ import React from 'react'
 import './WhyUs.css';
 
 import icon_bullet from '../../../Assets/Images/Slution/icon_bullet.webp';
+import { NavLink } from 'react-router-dom';
 
 export default function WhyUs() {
   return (
@@ -22,7 +23,7 @@ export default function WhyUs() {
                             Of Fuel Business Owners Go Online. Do You Want To Use Our Custom Fuel Delivery App Development Services? Call Us Now.
                         </p>
                         <div className='why_us_btn'>
-                            <a href='#0'>Schedule Call</a>
+                            <NavLink to="/contactus">Schedule Call</NavLink>
                         </div>
                     </div>
                 </div>

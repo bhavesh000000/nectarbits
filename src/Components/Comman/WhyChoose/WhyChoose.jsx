@@ -5,7 +5,7 @@ import { WhyChooseData } from '../../../Immutable/MobileDevelopment/MobileDevelo
 
 export default function WhyChoose({data}) {
   return (
-    <div className="industries_wrapper">
+    <div className="industries_wrapper why_chooseus_section">
         <div className="container">
             <div className="industries_wrap">
                 <div className="industries_block">

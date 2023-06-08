@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './Anywhere.css';
+import { NavLink } from 'react-router-dom';
 
 export default function Anywhere() {
   return (
@@ -14,7 +15,7 @@ export default function Anywhere() {
                     Running Out Of Fuel Halfway Through The Fuel Delivery App. 
                     Earn Customers, Loyalty, And Revenue With Next-Gen On-Demand Fuel Delivery Solution Development.</p>    
                     <div className='anywhere_btn'>
-                        <a href='#0'>Schedule Meeting</a>
+                        <NavLink to="/contactus">Schedule Meeting</NavLink>
                     </div>
                 </div>
             </div>

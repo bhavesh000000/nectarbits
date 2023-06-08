@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './Hero.css'
+import { NavLink } from 'react-router-dom'
 
 export default function Hero({data}) {
   return (
@@ -19,7 +20,7 @@ export default function Hero({data}) {
                                                     <h4>{ServicesHero?.data?.subTitle} </h4>
                                                     <p>{ServicesHero?.data?.conte}</p>
                                                     <div className="banner_btn">
-                                                        <a href="#0">{ServicesHero?.data?.link}</a>
+                                                        <NavLink to="/contactus">{ServicesHero?.data?.link}</NavLink>
                                                     </div>    
                                                 </div>
 

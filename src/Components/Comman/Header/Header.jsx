@@ -220,7 +220,7 @@ export default function Header() {
                                 </div>
                             </li>
                             <li><NavLink to='/hiresoftware'>Hire Resources</NavLink></li>
-                            <li><sapn className="company header_link" onClick={company_mega_open}>Company</sapn>
+                            {/* <li><sapn className="company header_link" onClick={company_mega_open}>Company</sapn>
                                 <div className="company_mega">
                                     <div className="company_mega_block">
                                         <div className="company_left border_right">
@@ -244,14 +244,14 @@ export default function Header() {
                                         </div>
                                     </div>
                                 </div>
-                            </li>
-                            <li><NavLink to='/contactus'>Contact Us</NavLink></li>
+                            </li> */}
+                            {/* <li><NavLink to='/contactus'>Contact Us</NavLink></li> */}
                             <div className="header_btn mobile_header_btn">
-                                <a className="button" href="#"><span>Enquire Now</span></a>
+                                <NavLink className="button" to="/contactus"><span>Enquire Now</span></NavLink>
                             </div>
                         </ul>
                         <div className="header_btn">
-                            <a className="button" href="#"><span>Enquire Now</span></a>
+                        <NavLink className="button" to="/contactus"><span>Enquire Now</span></NavLink>
                         </div>
                         <div onClick={toggleclass} className="menu_toggle_btn">
                             <span></span>

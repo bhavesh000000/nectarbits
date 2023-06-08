@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './Idea.css';
+import { NavLink } from 'react-router-dom';
 
 export default function Idea() {
   return (
@@ -13,7 +14,7 @@ export default function Idea() {
                             <h2>Have an Idea?</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit rerum.</p>
                             <div className="idea_btn">
-                                <a href="#0">Schedule Meeting</a>
+                                <NavLink to="/contactus">Schedule Meeting</NavLink>
                             </div>
                         </div>
                     </div>

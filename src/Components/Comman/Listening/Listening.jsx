@@ -2,9 +2,13 @@ import React, { useEffect } from 'react'
 import './Listening.css'
 
 import ic_email from '../../../Assets/Images/ic_email.webp'
+import { useNavigate } from 'react-router-dom'
 
 
 export default function Listening() {
+
+
+    const navigation = useNavigate()
 
     useEffect(() => {
         const script = document.createElement('script');
@@ -19,6 +23,39 @@ export default function Listening() {
               });
         };
     }, [])
+
+
+    useEffect(() => {
+    let id =  setTimeout(() => {
+            const iframe = document.getElementsByTagName('iframe')?.[0];
+            // console.log(iframe[0], 'iframe')
+            if (iframe) {
+                const iframeWindow = iframe.contentWindow;
+                if (iframeWindow) {
+                    const form = iframeWindow.document.getElementById('hsForm_68a22a5e-89aa-45c6-bb39-97c1722befc1');
+                    if (form) {
+                        form.addEventListener('submit', handleSubmit);
+                        console.log(form, 'vshvbshvdshvsdhvbhsb')
+                    }
+                }
+            }
+
+        }, 1000);
+
+        return ( ) =>{
+            (clearTimeout (id) )
+        }
+
+    }, []);
+
+
+    function handleSubmit(event) {
+        event.preventDefault();
+
+        navigation('/thankyou')
+
+        // alert('jcbcsjahb')
+    }
 
   return (
     <div className="listening_wrapper">

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './Developers.css'
+import { NavLink } from 'react-router-dom'
 
 export default function Developers() {
   return (
@@ -9,7 +10,7 @@ export default function Developers() {
             <div className='developers_wrap'>
                 <h2>Looking For Dedicated iOS Mobile App Developers?</h2>
                 <div className='developers_btn'>
-                    <a href='#0'>Schedule Interview</a>
+                    <NavLink to="/contactus">Schedule Interview</NavLink>
                 </div>
             </div>
         </div>

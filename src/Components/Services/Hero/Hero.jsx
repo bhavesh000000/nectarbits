@@ -3,6 +3,7 @@ import React from 'react'
 import './Hero.css'
 
 import hero_img1 from '../../../Assets/Images/Services/hero_img1.webp';
+import { NavLink } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -15,7 +16,7 @@ export default function Hero() {
                         <div className="banner_title">
                             <h2>Our <span>On-Demand</span> <br /> Mobile App and Website <span>Development Services</span> </h2>
                             <div className="banner_btn">
-                                <a href="#0">Let’s Talk</a>
+                                <NavLink to="/contactus">Let’s Talk</NavLink>
                             </div>
                         </div>
                     </div>

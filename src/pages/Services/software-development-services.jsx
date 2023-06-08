@@ -1,4 +1,4 @@
-import React, { lazy } from 'react'
+import React, { lazy, useEffect } from 'react'
 
 const Hero = lazy(() => import('../../Components/Services/Hero/Hero'));
 const WhyChooseUs = lazy(() => import('../../Components/Services/WhyChooseUs/WhyChooseUs'));
@@ -12,6 +12,19 @@ const Listening = lazy(() => import('../../Components/Comman/Listening/Listening
 const Offering = lazy(() => import('../../Components/Comman/Offering/Offering'));
 
 export default function Services() {
+
+  useEffect(() => {
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    };
+
+    scrollToTop();
+  }, []);
+
+
   return (
     <div className='services_page'>
         <Hero />

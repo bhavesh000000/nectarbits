@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './YourProject.css'
+import { NavLink } from 'react-router-dom'
 
 export default function YourProject() {
   return (
@@ -10,7 +11,7 @@ export default function YourProject() {
                 <h2>Let’s discuss your project!</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper libero velit.</p>
                 <div className="your_project_btn">
-                    <a href="#0">Schedule Meeting</a>
+                    <NavLink to="/contactus">Schedule Meeting</NavLink>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import React, { lazy } from 'react'
+import React, { lazy, useEffect } from 'react'
 
 import { ReactNetiveHeroData } from '../../Immutable/ServicesHero/ServicesHero'
 import { OurTechnicalData, ReactNativeData, ReactWhyChooseData, ReactlibrariesData } from '../../Immutable/CommanData/CommanData';
@@ -21,6 +21,18 @@ const Inspiration = lazy(() => import('../../Components/Comman/Inspiration/Inspi
 const Listening = lazy(() => import('../../Components/Comman/Listening/Listening'));
 
 export default function ReactNative() {
+
+  useEffect(() => {
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    };
+
+    scrollToTop();
+  }, []);
+
   return (
     <div className='react_native_page'>
         <Hero data={ReactNetiveHeroData} />

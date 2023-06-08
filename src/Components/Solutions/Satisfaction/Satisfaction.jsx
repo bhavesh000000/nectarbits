@@ -3,6 +3,7 @@ import React from 'react'
 import './Satisfaction.css'
 
 import satisfaction from '../../../Assets/Images/Slution/satisfaction.webp'
+import { NavLink } from 'react-router-dom'
 
 export default function Satisfaction() {
   return (
@@ -19,7 +20,7 @@ export default function Satisfaction() {
                         <div className='satisfaction_sec'>
                             <h2>We are standing on the top of the ladder with 90% client satisfaction.</h2>
                             <div className='satisfaction_btn'>
-                                <a href='#0'>Schedule Meeting</a>
+                                <NavLink to="/contactus">Schedule Meeting</NavLink>
                             </div>
                         </div>
                     </div>

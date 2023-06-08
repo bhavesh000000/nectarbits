@@ -4,34 +4,34 @@ export const headerData = [
         data: {
             id:1,
             title: "Mobile App",
-            data:  [{ name: "Services", path:'/services' },{ name: "React Native Development", path:'/reactnative' }, { name: "Flutter App Development", path:'/mobiledevelopment' }, { name: "iPhone App Development" }, { name: "Android App Development" }, { name: "iPad App Development" }, { name: "Swift App Development" }]
+            data:  [{ name: "Services", path:'/services' },{ name: "React Native Development", path:'/reactnative' }, { name: "Flutter App Development", path:'/mobiledevelopment' }]
 
         }
     },
-    {   
-        title: "Managed Services",
-        data: {
-            id:2,
-            title: "Managed Services",
-            data:  [{ name: " Native Development" }]
-        }
-    },
-    {
-        title: "Web Development",
-        data: {
-            id:3,
-            title: "Web Development",
-            data:  [{ name: "React  Development" }]
-        }
-    },
-    {
-        title: "Hire Developer",
-        data: {
-            id:4,
-            title: "Hire Developer",
-            data:  [{ name: "React Native " }]
-        }
-    },
+    // {   
+    //     title: "Managed Services",
+    //     data: {
+    //         id:2,
+    //         title: "Managed Services",
+    //         data:  [{ name: " Native Development" }]
+    //     }
+    // },
+    // {
+    //     title: "Web Development",
+    //     data: {
+    //         id:3,
+    //         title: "Web Development",
+    //         data:  [{ name: "React  Development" }]
+    //     }
+    // },
+    // {
+    //     title: "Hire Developer",
+    //     data: {
+    //         id:4,
+    //         title: "Hire Developer",
+    //         data:  [{ name: "React Native " }]
+    //     }
+    // },
  
 ]
 
@@ -49,45 +49,45 @@ export const productsData = [
             subTitle: 'Multi-Vendor eCommerce Platform',
             accData : {
                 id:1,
-                title:'Use Cases',
-                data: [{ name: "Solution", path:'/solutions' }, { name: "Salon Booking App", path:'/fulesolution' }, { name:"Car Wash App"}, { name:"Home Service App"}, {name:"Pharmacy Delivery App"}, {name:"Taxi Booking App"}, {name:'Laundry Booking App'}, {name:'Electric Vehicle Charging App'}]
+                // title:'Use Cases',
+                data: [{ name: "Solution", path:'/solutions' }]
             }
         }
     },
-    {
-        tabData:{
-            tabImage:products_ic2,
-            tabTitle: "Service Marketplace",
-            subTitle: 'Multi-Vendor eCommerce Platform',
-            accData : {
-                id:2,
-                title:'Use Cases',
-                data: [{ name: "Salon Booking App" }, { name:"Car Wash App"}, { name:"Home Service App"}, {name:"Pharmacy Delivery App"}, {name:"Taxi Booking App"}, {name:'Laundry Booking App'}, {name:'Electric Vehicle Charging App'}]
-            }
-        }
-    },
-    {
-        tabData:{
-            tabImage:products_ic3,
-            tabTitle: "Dating App Solution",
-            subTitle: 'Multi-Vendor eCommerce Platform',
-            accData : {
-                id:3,
-                title:'Use Cases',
-                data: [{ name: "Salon Booking App" }, { name:"Car Wash App"}, { name:"Home Service App"}, {name:"Pharmacy Delivery App"}, {name:"Taxi Booking App"}, {name:'Laundry Booking App'}, {name:'Electric Vehicle Charging App'}]
-            }
-        }
-    },
+    // {
+    //     tabData:{
+    //         tabImage:products_ic2,
+    //         tabTitle: "Service Marketplace",
+    //         subTitle: 'Multi-Vendor eCommerce Platform',
+    //         accData : {
+    //             id:2,
+    //             title:'Use Cases',
+    //             data: [{ name: "Salon Booking App" }, { name:"Car Wash App"}, { name:"Home Service App"}, {name:"Pharmacy Delivery App"}, {name:"Taxi Booking App"}, {name:'Laundry Booking App'}, {name:'Electric Vehicle Charging App'}]
+    //         }
+    //     }
+    // },
+    // {
+    //     tabData:{
+    //         tabImage:products_ic3,
+    //         tabTitle: "Dating App Solution",
+    //         subTitle: 'Multi-Vendor eCommerce Platform',
+    //         accData : {
+    //             id:3,
+    //             title:'Use Cases',
+    //             data: [{ name: "Salon Booking App" }, { name:"Car Wash App"}, { name:"Home Service App"}, {name:"Pharmacy Delivery App"}, {name:"Taxi Booking App"}, {name:'Laundry Booking App'}, {name:'Electric Vehicle Charging App'}]
+    //         }
+    //     }
+    // },
     {
         tabData:{
             tabImage:products_ic4,
             tabTitle: "Fuel Delivery App",
             subTitle: 'Multi-Vendor eCommerce Platform',
-            linkTo:"/fulesolution",
+            // linkTo:"",
             accData : {
                 id:4,
-                title:'Use Cases',
-                data: [{ name: "Salon Booking App" }, { name:"Car Wash App"}, { name:"Home Service App"}, {name:"Pharmacy Delivery App"}, {name:"Taxi Booking App"}, {name:'Laundry Booking App'}, {name:'Electric Vehicle Charging App'}]
+                // title:'Use Cases',
+                data:  [{ name: "Fuel Delivery App", path:'/fulesolution' }]
             }
         }
     },

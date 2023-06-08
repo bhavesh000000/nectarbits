@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './HireResourcesHero.css'
+import { NavLink } from 'react-router-dom'
 
 export default function HireResourcesHero({data}) {
   return (
@@ -18,7 +19,7 @@ export default function HireResourcesHero({data}) {
                                                     <h3>{HireResources?.data?.title} <span>{HireResources?.data?.subTitle}</span> </h3>
                                                     <p>{HireResources?.data?.conte}</p>
                                                     <div className="banner_btn">
-                                                        <a href="#0">{HireResources?.data?.link}</a>
+                                                        <NavLink to="/contactus">{HireResources?.data?.link}</NavLink>
                                                     </div>    
                                                 </div>
 

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './Flexibility.css'
+import { NavLink } from 'react-router-dom'
 
 export default function Flexibility() {
   return (
@@ -14,7 +15,7 @@ export default function Flexibility() {
                             <p>When You Are Not Satisfied With The Resource After The Development Has Started, You Are Free To Replace The Developer With A New Resource.</p>
                         </div>
                         <div className='flexibility_btn'>
-                            <a href='#0'>Book A Call</a>
+                            <NavLink to="/contactus">Book A Call</NavLink>
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-import React, { lazy } from 'react'
+import React, { lazy, useEffect } from 'react'
 import { HireResourcesHeroData } from '../../Immutable/HireResourcesHero/HireResourcesHeroData';
 
 const HireResourcesHero = lazy(() => import('../../Components/HireResources/Hero/HireResourcesHero'));
@@ -12,7 +12,20 @@ const Flexibility = lazy(() => import('../../Components/HireResources/Flexibilit
 const Inspiration = lazy(() => import('../../Components/Comman/Inspiration/Inspiration'));
 const Listening = lazy(() => import('../../Components/Comman/Listening/Listening'));
 
-export default function hire_software() {
+export default function Hire_software() {
+
+  useEffect(() => {
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    };
+
+    scrollToTop();
+  }, []);
+
+
   return (
     <div className='hire_software_page'>
         <HireResourcesHero data={HireResourcesHeroData} />
